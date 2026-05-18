@@ -1,0 +1,103 @@
+{
+  "totalIncidents": 85101,
+  "agentCount": 9,
+  "cohortCount": 725,
+  "marketplaces": [
+    {
+      "name": "FRM-Blue (Flipkart)",
+      "key": "FLIPKART",
+      "incidents": 54689,
+      "verticals": 24
+    },
+    {
+      "name": "FRM-HL (Hyperlocal)",
+      "key": "HYPERLOCAL",
+      "incidents": 30412,
+      "verticals": 502
+    }
+  ],
+  "returnReasons": [
+    {
+      "reason": "DAMAGED_PRODUCT",
+      "count": 32106
+    },
+    {
+      "reason": "MISSHIPMENT",
+      "count": 29118
+    },
+    {
+      "reason": "QUALITY_ISSUE",
+      "count": 21951
+    },
+    {
+      "reason": "MISSING_ITEM",
+      "count": 1153
+    },
+    {
+      "reason": "SMART_PICKUP_CHECK_OVERRIDE",
+      "count": 773
+    }
+  ],
+  "topVerticals": [
+    {
+      "vertical": "vegetable",
+      "count": 8905
+    },
+    {
+      "vertical": "fruit",
+      "count": 7076
+    },
+    {
+      "vertical": "sandal",
+      "count": 5977
+    },
+    {
+      "vertical": "induction_cook_top",
+      "count": 5180
+    },
+    {
+      "vertical": "speaker",
+      "count": 4687
+    },
+    {
+      "vertical": "shirt",
+      "count": 4189
+    },
+    {
+      "vertical": "diaper",
+      "count": 3969
+    },
+    {
+      "vertical": "watch",
+      "count": 3915
+    },
+    {
+      "vertical": "trimmer",
+      "count": 3788
+    },
+    {
+      "vertical": "suitcase",
+      "count": 3777
+    },
+    {
+      "vertical": "bottle",
+      "count": 3429
+    },
+    {
+      "vertical": "cases_covers",
+      "count": 2807
+    },
+    {
+      "vertical": "helmet",
+      "count": 2667
+    },
+    {
+      "vertical": "ice_cream",
+      "count": 1831
+    },
+    {
+      "vertical": "electric_kettle",
+      "count": 1569
+    }
+  ]
+}

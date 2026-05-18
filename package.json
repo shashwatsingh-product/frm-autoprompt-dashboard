@@ -1,0 +1,22 @@
+{
+  "name": "frm-autoprompt-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "preprocess": "node scripts/preprocess.js",
+    "server": "node server/index.js",
+    "client": "cd client && npm run dev",
+    "dev": "npm run preprocess && concurrently \"npm run server\" \"npm run client\"",
+    "setup": "npm install && cd client && npm install && cd .. && npm run preprocess",
+    "build": "cd client && npm install && npm run build",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

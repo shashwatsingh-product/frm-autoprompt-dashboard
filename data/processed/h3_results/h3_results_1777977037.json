@@ -1,0 +1,161 @@
+{
+  "config": {
+    "agent": "both",
+    "limit": 2,
+    "dry_run": false,
+    "generation_config": {
+      "maxOutputTokens": 300,
+      "temperature": 0.0,
+      "topP": 0.4,
+      "topK": 32,
+      "seed": 2025,
+      "thinkingConfig": {
+        "thinkingBudget": 0
+      }
+    },
+    "image_compression": {
+      "width": 1000,
+      "height": 1000,
+      "quality": 85
+    }
+  },
+  "summary": {
+    "total": 4,
+    "matches": 2,
+    "mismatches": 1,
+    "errors": 1,
+    "consistency_pct": 66.7
+  },
+  "results": [
+    {
+      "incident_id": "IN26020722095225379286",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The catalog image shows a saree with a floral pattern and a gold blouse. The wild image shows only gold fabric. | Damage: None | Missing: None | Confidence: 100\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Gold fabric\", \"product_in_catalogimage\": \"Black and floral saree with gold blouse\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "```json\n{\n\"product_in_catalogimage\": \"Black and Gold Floral Saree with Gold Blouse\",\n\"product_in_wildimage\": \"Gold fabric with herringbone pattern (Wild_Image_1)\",\n\"reason\": \"Visibility: Clear | Score: 8/10 | Identity: Mismatch - The Wild image shows a plain gold fabric with a herringbone pattern, which does not match the black and gold floral saree with a gold blouse shown in the Catalog image. The pattern, color distribution, and overall design are completely different. | Damage: None | Missing: None | Confidence: 95\",\n\"product_match\": \"Misshipment\"\n}\n```",
+      "match": true,
+      "image_count": 3,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4775,
+        "candidatesTokenCount": 145,
+        "totalTokenCount": 4920,
+        "cachedContentTokenCount": 2043,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1712
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 331
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 145
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26020722095225379286",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "Can't Say",
+      "original_output": "{\"analysis\": \"No OBD image showing product\", \"decision\": \"Can't Say\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "```json\n{\n\"product_in_catalogimage\": \"Black Floral Saree with Gold Border\",\n\"product_in_wildimage\": \"Black Floral Fabric (Visible in Wild_Image_1)\",\n\"reason\": \"Visibility: Partial (in Wild_Image_1) | Score: 7/10 | Identity: Match - The visible pattern and color scheme in Wild_Image_1 align with the Catalog image. The item is in a clear plastic bag, allowing for partial visibility of the product's features. | Damage: None | Missing: None | Confidence: 95\",\n\"product_match\": \"No Issue\"\n}\n```",
+      "match": false,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 140,
+        "totalTokenCount": 4651,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 140
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022018592806222677",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Can't Say",
+      "rerun_decision": null,
+      "match": null,
+      "status": "error",
+      "error": "HTTPConnectionPool(host='genvoy.jarvis-prod.fkcloud.in', port=80): Read timed out. (read timeout=60)"
+    },
+    {
+      "incident_id": "IN26022018592806222677",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "No Issue",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 9/10 | Identity: Match - The color, pattern, and material (silk-like appearance with zari weave) of the saree in the Obd Image closely match the Catalog image. The border design and main body pattern are consistent. | Damage: None | Missing: None | Confidence: 95\", \"decision\": \"No Issue\", \"product_in_wildimage\": \"Pink and Navy Blue Saree with Gold Weave (Visible in Obd Image)\", \"product_in_catalogimage\": \"Pink and Navy Blue Silk Saree with Gold Zari Weave\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "```json\n{\n\"product_in_catalogimage\": \"Pink and Navy Blue Silk Saree with Gold Zari Weave\",\n\"product_in_wildimage\": \"Pink and Navy Blue Saree with Gold Weave (Visible in Wild_Image_1)\",\n\"reason\": \"Visibility: Clear | Score: 9/10 | Identity: Match - The pattern, color combination (pink body, navy blue border with gold zari), and material appearance (silk-like weave) in Wild_Image_1 closely match the Catalog image. | Damage: None | Missing: None | Confidence: 95\",\n\"product_match\": \"No Issue\"\n}\n```",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 144,
+        "totalTokenCount": 4655,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2715
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 350
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 144
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+data/processed/*.db
+data/raw/
+__pycache__/
+*.pyc
+.env
+*.log
+# Too large for GitHub — use Git LFS or exclude
+data/processed/token_simulation_results.json
