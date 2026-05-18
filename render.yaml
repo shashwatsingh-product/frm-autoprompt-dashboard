@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: frm-autoprompt-dashboard
+    runtime: node
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 18.20.0
