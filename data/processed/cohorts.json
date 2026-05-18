@@ -1,0 +1,5077 @@
+[
+  {
+    "cohortId": "C0001",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "vegetable",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 8468
+  },
+  {
+    "cohortId": "C0002",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "fruit",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 6706
+  },
+  {
+    "cohortId": "C0003",
+    "marketplace": "FLIPKART",
+    "vertical": "sandal",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 3846
+  },
+  {
+    "cohortId": "C0004",
+    "marketplace": "FLIPKART",
+    "vertical": "shirt",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 2933
+  },
+  {
+    "cohortId": "C0005",
+    "marketplace": "FLIPKART",
+    "vertical": "induction_cook_top",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2590
+  },
+  {
+    "cohortId": "C0006",
+    "marketplace": "FLIPKART",
+    "vertical": "diaper",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 2535
+  },
+  {
+    "cohortId": "C0007",
+    "marketplace": "FLIPKART",
+    "vertical": "induction_cook_top",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 2289
+  },
+  {
+    "cohortId": "C0008",
+    "marketplace": "FLIPKART",
+    "vertical": "speaker",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 2276
+  },
+  {
+    "cohortId": "C0009",
+    "marketplace": "FLIPKART",
+    "vertical": "speaker",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2243
+  },
+  {
+    "cohortId": "C0010",
+    "marketplace": "FLIPKART",
+    "vertical": "suitcase",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2114
+  },
+  {
+    "cohortId": "C0011",
+    "marketplace": "FLIPKART",
+    "vertical": "bottle",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2107
+  },
+  {
+    "cohortId": "C0012",
+    "marketplace": "FLIPKART",
+    "vertical": "sandal",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2064
+  },
+  {
+    "cohortId": "C0013",
+    "marketplace": "FLIPKART",
+    "vertical": "trimmer",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 1926
+  },
+  {
+    "cohortId": "C0014",
+    "marketplace": "FLIPKART",
+    "vertical": "watch",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1846
+  },
+  {
+    "cohortId": "C0015",
+    "marketplace": "FLIPKART",
+    "vertical": "cases_covers",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 1842
+  },
+  {
+    "cohortId": "C0016",
+    "marketplace": "FLIPKART",
+    "vertical": "watch",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 1838
+  },
+  {
+    "cohortId": "C0017",
+    "marketplace": "FLIPKART",
+    "vertical": "trimmer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1777
+  },
+  {
+    "cohortId": "C0018",
+    "marketplace": "FLIPKART",
+    "vertical": "helmet",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1642
+  },
+  {
+    "cohortId": "C0019",
+    "marketplace": "FLIPKART",
+    "vertical": "suitcase",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 1544
+  },
+  {
+    "cohortId": "C0020",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ice_cream",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1366
+  },
+  {
+    "cohortId": "C0021",
+    "marketplace": "FLIPKART",
+    "vertical": "diaper",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1300
+  },
+  {
+    "cohortId": "C0022",
+    "marketplace": "FLIPKART",
+    "vertical": "bottle",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 1206
+  },
+  {
+    "cohortId": "C0023",
+    "marketplace": "FLIPKART",
+    "vertical": "shirt",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1153
+  },
+  {
+    "cohortId": "C0024",
+    "marketplace": "FLIPKART",
+    "vertical": "electric_kettle",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1020
+  },
+  {
+    "cohortId": "C0025",
+    "marketplace": "FLIPKART",
+    "vertical": "helmet",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 994
+  },
+  {
+    "cohortId": "C0026",
+    "marketplace": "FLIPKART",
+    "vertical": "ethnic_set",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 981
+  },
+  {
+    "cohortId": "C0027",
+    "marketplace": "FLIPKART",
+    "vertical": "smartwatch",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 839
+  },
+  {
+    "cohortId": "C0028",
+    "marketplace": "FLIPKART",
+    "vertical": "sari",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 813
+  },
+  {
+    "cohortId": "C0029",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "paneer_tofu",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 758
+  },
+  {
+    "cohortId": "C0030",
+    "marketplace": "FLIPKART",
+    "vertical": "mixer_grinder_juicer",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 664
+  },
+  {
+    "cohortId": "C0031",
+    "marketplace": "FLIPKART",
+    "vertical": "cases_covers",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 622
+  },
+  {
+    "cohortId": "C0032",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "curd_yogurt",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 603
+  },
+  {
+    "cohortId": "C0033",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "milk",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 588
+  },
+  {
+    "cohortId": "C0034",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bread_bun",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 582
+  },
+  {
+    "cohortId": "C0035",
+    "marketplace": "FLIPKART",
+    "vertical": "jacket",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 556
+  },
+  {
+    "cohortId": "C0036",
+    "marketplace": "FLIPKART",
+    "vertical": "smartwatch",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 523
+  },
+  {
+    "cohortId": "C0037",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "meat",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 493
+  },
+  {
+    "cohortId": "C0038",
+    "marketplace": "FLIPKART",
+    "vertical": "shoe",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 480
+  },
+  {
+    "cohortId": "C0039",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ice_cream",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 465
+  },
+  {
+    "cohortId": "C0040",
+    "marketplace": "FLIPKART",
+    "vertical": "jean",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 459
+  },
+  {
+    "cohortId": "C0041",
+    "marketplace": "FLIPKART",
+    "vertical": "jean",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 448
+  },
+  {
+    "cohortId": "C0042",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "vegetable",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 437
+  },
+  {
+    "cohortId": "C0043",
+    "marketplace": "FLIPKART",
+    "vertical": "sari",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 429
+  },
+  {
+    "cohortId": "C0044",
+    "marketplace": "FLIPKART",
+    "vertical": "electric_kettle",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 422
+  },
+  {
+    "cohortId": "C0045",
+    "marketplace": "FLIPKART",
+    "vertical": "shoe",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 395
+  },
+  {
+    "cohortId": "C0046",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ready_meal",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 395
+  },
+  {
+    "cohortId": "C0047",
+    "marketplace": "FLIPKART",
+    "vertical": "ethnic_set",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 391
+  },
+  {
+    "cohortId": "C0048",
+    "marketplace": "FLIPKART",
+    "vertical": "sweatshirt",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 389
+  },
+  {
+    "cohortId": "C0049",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "fruit",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 370
+  },
+  {
+    "cohortId": "C0050",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "milk",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 356
+  },
+  {
+    "cohortId": "C0051",
+    "marketplace": "FLIPKART",
+    "vertical": "mixer_grinder_juicer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 319
+  },
+  {
+    "cohortId": "C0052",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cases_covers",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 310
+  },
+  {
+    "cohortId": "C0053",
+    "marketplace": "FLIPKART",
+    "vertical": "jacket",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 305
+  },
+  {
+    "cohortId": "C0054",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "egg",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 285
+  },
+  {
+    "cohortId": "C0055",
+    "marketplace": "FLIPKART",
+    "vertical": "induction_cook_top",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 283
+  },
+  {
+    "cohortId": "C0056",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "egg",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 274
+  },
+  {
+    "cohortId": "C0057",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "headphone",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 231
+  },
+  {
+    "cohortId": "C0058",
+    "marketplace": "FLIPKART",
+    "vertical": "shoe",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 220
+  },
+  {
+    "cohortId": "C0059",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "edible_oil",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 218
+  },
+  {
+    "cohortId": "C0060",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cookie_biscuit",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 217
+  },
+  {
+    "cohortId": "C0061",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "flour",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 214
+  },
+  {
+    "cohortId": "C0062",
+    "marketplace": "FLIPKART",
+    "vertical": "water_geyser",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 186
+  },
+  {
+    "cohortId": "C0063",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bread_bun",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 156
+  },
+  {
+    "cohortId": "C0064",
+    "marketplace": "FLIPKART",
+    "vertical": "sweater",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 148
+  },
+  {
+    "cohortId": "C0065",
+    "marketplace": "FLIPKART",
+    "vertical": "mixer_grinder_juicer",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 140
+  },
+  {
+    "cohortId": "C0066",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cake_pastry",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 132
+  },
+  {
+    "cohortId": "C0067",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "curd_yogurt",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 125
+  },
+  {
+    "cohortId": "C0068",
+    "marketplace": "FLIPKART",
+    "vertical": "water_geyser",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 122
+  },
+  {
+    "cohortId": "C0069",
+    "marketplace": "FLIPKART",
+    "vertical": "speaker",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 119
+  },
+  {
+    "cohortId": "C0070",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pulses",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 117
+  },
+  {
+    "cohortId": "C0071",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "watch",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 112
+  },
+  {
+    "cohortId": "C0072",
+    "marketplace": "FLIPKART",
+    "vertical": "electric_kettle",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 111
+  },
+  {
+    "cohortId": "C0073",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "chips",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 102
+  },
+  {
+    "cohortId": "C0074",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "deodorant",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 97
+  },
+  {
+    "cohortId": "C0075",
+    "marketplace": "FLIPKART",
+    "vertical": "sweatshirt",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 96
+  },
+  {
+    "cohortId": "C0076",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cheese",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 91
+  },
+  {
+    "cohortId": "C0077",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "chocolate",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 91
+  },
+  {
+    "cohortId": "C0078",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "snack_savourie",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 90
+  },
+  {
+    "cohortId": "C0079",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "rice",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 90
+  },
+  {
+    "cohortId": "C0080",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "noodle",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 89
+  },
+  {
+    "cohortId": "C0081",
+    "marketplace": "FLIPKART",
+    "vertical": "suitcase",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 88
+  },
+  {
+    "cohortId": "C0082",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "nut_dry_fruit",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 85
+  },
+  {
+    "cohortId": "C0083",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mop_cleaning_wipe",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 84
+  },
+  {
+    "cohortId": "C0084",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "paneer_tofu",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 83
+  },
+  {
+    "cohortId": "C0085",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sweet_mithai",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 82
+  },
+  {
+    "cohortId": "C0086",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "aerated_drink",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 80
+  },
+  {
+    "cohortId": "C0087",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ghee",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 78
+  },
+  {
+    "cohortId": "C0088",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "perfume",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 76
+  },
+  {
+    "cohortId": "C0089",
+    "marketplace": "FLIPKART",
+    "vertical": "shirt",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 71
+  },
+  {
+    "cohortId": "C0090",
+    "marketplace": "FLIPKART",
+    "vertical": "headphone",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 71
+  },
+  {
+    "cohortId": "C0091",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "skin_treatment",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 68
+  },
+  {
+    "cohortId": "C0092",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pot_pan",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 67
+  },
+  {
+    "cohortId": "C0093",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "face_wash",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 67
+  },
+  {
+    "cohortId": "C0094",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pressure_cooker",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 66
+  },
+  {
+    "cohortId": "C0095",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bottle",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 66
+  },
+  {
+    "cohortId": "C0096",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cookware_set",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 65
+  },
+  {
+    "cohortId": "C0097",
+    "marketplace": "FLIPKART",
+    "vertical": "diaper",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 64
+  },
+  {
+    "cohortId": "C0098",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "shampoo",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 63
+  },
+  {
+    "cohortId": "C0099",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "flour",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 61
+  },
+  {
+    "cohortId": "C0100",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "remote_control_toy",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 61
+  },
+  {
+    "cohortId": "C0101",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "nut_dry_fruit",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 60
+  },
+  {
+    "cohortId": "C0102",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "electric_insect_killer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 59
+  },
+  {
+    "cohortId": "C0103",
+    "marketplace": "FLIPKART",
+    "vertical": "jean",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 59
+  },
+  {
+    "cohortId": "C0104",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "moisturizer_cream",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 59
+  },
+  {
+    "cohortId": "C0105",
+    "marketplace": "FLIPKART",
+    "vertical": "trimmer",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 57
+  },
+  {
+    "cohortId": "C0106",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "smartwatch",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 57
+  },
+  {
+    "cohortId": "C0107",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sugar",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 57
+  },
+  {
+    "cohortId": "C0108",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "jam_spread",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 56
+  },
+  {
+    "cohortId": "C0109",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "fresh_flowers",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 56
+  },
+  {
+    "cohortId": "C0110",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "kurta",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 53
+  },
+  {
+    "cohortId": "C0111",
+    "marketplace": "FLIPKART",
+    "vertical": "watch",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 53
+  },
+  {
+    "cohortId": "C0112",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "drinks_juice",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 53
+  },
+  {
+    "cohortId": "C0113",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "lunch_box",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 50
+  },
+  {
+    "cohortId": "C0114",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "diaper",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 48
+  },
+  {
+    "cohortId": "C0115",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sunscreen",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 47
+  },
+  {
+    "cohortId": "C0116",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mobile_holder",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 46
+  },
+  {
+    "cohortId": "C0117",
+    "marketplace": "FLIPKART",
+    "vertical": "shoe",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 46
+  },
+  {
+    "cohortId": "C0118",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ready_meal",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 45
+  },
+  {
+    "cohortId": "C0119",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "snack_savourie",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 43
+  },
+  {
+    "cohortId": "C0120",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "musical_toy",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 43
+  },
+  {
+    "cohortId": "C0121",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "spice_masala",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 42
+  },
+  {
+    "cohortId": "C0122",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pulses",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 41
+  },
+  {
+    "cohortId": "C0123",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "edible_oil",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 40
+  },
+  {
+    "cohortId": "C0124",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "backpack",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 40
+  },
+  {
+    "cohortId": "C0125",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mousepad",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 39
+  },
+  {
+    "cohortId": "C0126",
+    "marketplace": "FLIPKART",
+    "vertical": "sandal",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 39
+  },
+  {
+    "cohortId": "C0127",
+    "marketplace": "FLIPKART",
+    "vertical": "room_heater",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 38
+  },
+  {
+    "cohortId": "C0128",
+    "marketplace": "FLIPKART",
+    "vertical": "bottle",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 38
+  },
+  {
+    "cohortId": "C0129",
+    "marketplace": "FLIPKART",
+    "vertical": "ethnic_set",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 38
+  },
+  {
+    "cohortId": "C0130",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "learning_toy",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 38
+  },
+  {
+    "cohortId": "C0131",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sweet_mithai",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 37
+  },
+  {
+    "cohortId": "C0132",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "data_cable",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 37
+  },
+  {
+    "cohortId": "C0133",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "umbrella",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 37
+  },
+  {
+    "cohortId": "C0134",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ball",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 37
+  },
+  {
+    "cohortId": "C0135",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cereal_flake",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 37
+  },
+  {
+    "cohortId": "C0136",
+    "marketplace": "FLIPKART",
+    "vertical": "sweater",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 36
+  },
+  {
+    "cohortId": "C0137",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "screen_guard",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 36
+  },
+  {
+    "cohortId": "C0138",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "rice_light",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 36
+  },
+  {
+    "cohortId": "C0139",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "chopper",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 35
+  },
+  {
+    "cohortId": "C0140",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ready_mix",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 35
+  },
+  {
+    "cohortId": "C0141",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "aerated_drink",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 34
+  },
+  {
+    "cohortId": "C0142",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cake_pastry",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 34
+  },
+  {
+    "cohortId": "C0143",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "spice_masala",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 33
+  },
+  {
+    "cohortId": "C0144",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "drinks_juice",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 33
+  },
+  {
+    "cohortId": "C0145",
+    "marketplace": "FLIPKART",
+    "vertical": "watch",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 33
+  },
+  {
+    "cohortId": "C0146",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "watch",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 33
+  },
+  {
+    "cohortId": "C0147",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "salt",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 33
+  },
+  {
+    "cohortId": "C0148",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "body_wash",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 32
+  },
+  {
+    "cohortId": "C0149",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "liquid_detergent",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 32
+  },
+  {
+    "cohortId": "C0150",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "chocolate",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 31
+  },
+  {
+    "cohortId": "C0151",
+    "marketplace": "FLIPKART",
+    "vertical": "suitcase",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 31
+  },
+  {
+    "cohortId": "C0152",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mosquito_net",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 31
+  },
+  {
+    "cohortId": "C0153",
+    "marketplace": "FLIPKART",
+    "vertical": "headphone",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 31
+  },
+  {
+    "cohortId": "C0154",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "washing_powder",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 31
+  },
+  {
+    "cohortId": "C0155",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pen",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 31
+  },
+  {
+    "cohortId": "C0156",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hair_oil",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 31
+  },
+  {
+    "cohortId": "C0157",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "rusk",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 31
+  },
+  {
+    "cohortId": "C0158",
+    "marketplace": "FLIPKART",
+    "vertical": "water_geyser",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 30
+  },
+  {
+    "cohortId": "C0159",
+    "marketplace": "FLIPKART",
+    "vertical": "speaker",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 29
+  },
+  {
+    "cohortId": "C0160",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "edible_seed",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 29
+  },
+  {
+    "cohortId": "C0161",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sauce_ketchup",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 28
+  },
+  {
+    "cohortId": "C0162",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "toothpaste",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 28
+  },
+  {
+    "cohortId": "C0163",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "birthday_combo",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 28
+  },
+  {
+    "cohortId": "C0164",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "energy_sport_drink_mix",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 27
+  },
+  {
+    "cohortId": "C0165",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "butter",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 27
+  },
+  {
+    "cohortId": "C0166",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "rice",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 26
+  },
+  {
+    "cohortId": "C0167",
+    "marketplace": "FLIPKART",
+    "vertical": "sandal",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 26
+  },
+  {
+    "cohortId": "C0168",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "dairy_cream",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 26
+  },
+  {
+    "cohortId": "C0169",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "t_shirt",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 26
+  },
+  {
+    "cohortId": "C0170",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "table_lamp",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 26
+  },
+  {
+    "cohortId": "C0171",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "air_freshener",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 26
+  },
+  {
+    "cohortId": "C0172",
+    "marketplace": "FLIPKART",
+    "vertical": "ethnic_set",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 26
+  },
+  {
+    "cohortId": "C0173",
+    "marketplace": "FLIPKART",
+    "vertical": "mixer_grinder_juicer",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 25
+  },
+  {
+    "cohortId": "C0174",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "backpack",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 24
+  },
+  {
+    "cohortId": "C0175",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "idli_maker",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 24
+  },
+  {
+    "cohortId": "C0176",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ethnic_set",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 23
+  },
+  {
+    "cohortId": "C0177",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "butter_milk",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 23
+  },
+  {
+    "cohortId": "C0178",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "chips",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 22
+  },
+  {
+    "cohortId": "C0179",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "seafood",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 22
+  },
+  {
+    "cohortId": "C0180",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "tea",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 22
+  },
+  {
+    "cohortId": "C0181",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cheese",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 22
+  },
+  {
+    "cohortId": "C0182",
+    "marketplace": "FLIPKART",
+    "vertical": "shirt",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 21
+  },
+  {
+    "cohortId": "C0183",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cookie_biscuit",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 21
+  },
+  {
+    "cohortId": "C0184",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "selfie_stick",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 21
+  },
+  {
+    "cohortId": "C0185",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "container",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 21
+  },
+  {
+    "cohortId": "C0186",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "broom_brush",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 21
+  },
+  {
+    "cohortId": "C0187",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "soya_chunk",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 21
+  },
+  {
+    "cohortId": "C0188",
+    "marketplace": "FLIPKART",
+    "vertical": "smartwatch",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 21
+  },
+  {
+    "cohortId": "C0189",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "lipstick",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 20
+  },
+  {
+    "cohortId": "C0190",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "meat",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 20
+  },
+  {
+    "cohortId": "C0191",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "power_bank",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 20
+  },
+  {
+    "cohortId": "C0192",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "speaker",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 20
+  },
+  {
+    "cohortId": "C0193",
+    "marketplace": "FLIPKART",
+    "vertical": "helmet",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 19
+  },
+  {
+    "cohortId": "C0194",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "wall_clock",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 19
+  },
+  {
+    "cohortId": "C0195",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sunglass",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 18
+  },
+  {
+    "cohortId": "C0196",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "surge_protector",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 18
+  },
+  {
+    "cohortId": "C0197",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "protein_supplement",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 18
+  },
+  {
+    "cohortId": "C0198",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cases_covers",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 18
+  },
+  {
+    "cohortId": "C0199",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hand_wash_sanitizer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 18
+  },
+  {
+    "cohortId": "C0200",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bedsheet",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 18
+  },
+  {
+    "cohortId": "C0201",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "coin_bank",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 18
+  },
+  {
+    "cohortId": "C0202",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "trimmer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 18
+  },
+  {
+    "cohortId": "C0203",
+    "marketplace": "FLIPKART",
+    "vertical": "induction_cook_top",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 17
+  },
+  {
+    "cohortId": "C0204",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "shampoo",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 17
+  },
+  {
+    "cohortId": "C0205",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "coffee",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 17
+  },
+  {
+    "cohortId": "C0206",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "havan_items",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 17
+  },
+  {
+    "cohortId": "C0207",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "water",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 17
+  },
+  {
+    "cohortId": "C0208",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pillow",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 17
+  },
+  {
+    "cohortId": "C0209",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "candy_mouth_freshener",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 17
+  },
+  {
+    "cohortId": "C0210",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ayurvedic",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 16
+  },
+  {
+    "cohortId": "C0211",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sari",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 16
+  },
+  {
+    "cohortId": "C0212",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "dish_cleaning_gel",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 16
+  },
+  {
+    "cohortId": "C0213",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cigarettes",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 15
+  },
+  {
+    "cohortId": "C0214",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "toilet_cleaner",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 15
+  },
+  {
+    "cohortId": "C0215",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sanitary_pad_pantyliner",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 15
+  },
+  {
+    "cohortId": "C0216",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bulb",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 15
+  },
+  {
+    "cohortId": "C0217",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "emergency_light",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 15
+  },
+  {
+    "cohortId": "C0218",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cereal_flake",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 14
+  },
+  {
+    "cohortId": "C0219",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "tea",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 14
+  },
+  {
+    "cohortId": "C0220",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "conditioner",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 14
+  },
+  {
+    "cohortId": "C0221",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pasta",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 14
+  },
+  {
+    "cohortId": "C0222",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sport_glove",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 14
+  },
+  {
+    "cohortId": "C0223",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bike_mobile_holder",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 14
+  },
+  {
+    "cohortId": "C0224",
+    "marketplace": "FLIPKART",
+    "vertical": "room_heater",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 13
+  },
+  {
+    "cohortId": "C0225",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "diaper",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 13
+  },
+  {
+    "cohortId": "C0226",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "jam_spread",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 13
+  },
+  {
+    "cohortId": "C0227",
+    "marketplace": "FLIPKART",
+    "vertical": "smartwatch",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 13
+  },
+  {
+    "cohortId": "C0228",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "lip_balm",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 13
+  },
+  {
+    "cohortId": "C0229",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hair_serum",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 13
+  },
+  {
+    "cohortId": "C0230",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cutting_board",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 13
+  },
+  {
+    "cohortId": "C0231",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "milk_drink_mix",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 13
+  },
+  {
+    "cohortId": "C0232",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "honey",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 13
+  },
+  {
+    "cohortId": "C0233",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "brief",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 13
+  },
+  {
+    "cohortId": "C0234",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sunglass",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 13
+  },
+  {
+    "cohortId": "C0235",
+    "marketplace": "FLIPKART",
+    "vertical": "cases_covers",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 12
+  },
+  {
+    "cohortId": "C0236",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pet_food",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 12
+  },
+  {
+    "cohortId": "C0237",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "raincoat",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 12
+  },
+  {
+    "cohortId": "C0238",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "foundation",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 12
+  },
+  {
+    "cohortId": "C0239",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "laptop_stand",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 12
+  },
+  {
+    "cohortId": "C0240",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "face_wash",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 11
+  },
+  {
+    "cohortId": "C0241",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sunscreen",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 11
+  },
+  {
+    "cohortId": "C0242",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "moisturizer_cream",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 11
+  },
+  {
+    "cohortId": "C0243",
+    "marketplace": "FLIPKART",
+    "vertical": "bottle",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 11
+  },
+  {
+    "cohortId": "C0244",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "art_set",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 11
+  },
+  {
+    "cohortId": "C0245",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "electric_kettle",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 11
+  },
+  {
+    "cohortId": "C0246",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "raincoat",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 11
+  },
+  {
+    "cohortId": "C0247",
+    "marketplace": "FLIPKART",
+    "vertical": "trimmer",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 10
+  },
+  {
+    "cohortId": "C0248",
+    "marketplace": "FLIPKART",
+    "vertical": "jacket",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 10
+  },
+  {
+    "cohortId": "C0249",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "rx_medicine",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 10
+  },
+  {
+    "cohortId": "C0250",
+    "marketplace": "FLIPKART",
+    "vertical": "sari",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 10
+  },
+  {
+    "cohortId": "C0251",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "shirt",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 10
+  },
+  {
+    "cohortId": "C0252",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "jaggery",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 10
+  },
+  {
+    "cohortId": "C0253",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pump",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 10
+  },
+  {
+    "cohortId": "C0254",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "vermicelli",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 10
+  },
+  {
+    "cohortId": "C0255",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mug",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 10
+  },
+  {
+    "cohortId": "C0256",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "candle",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 10
+  },
+  {
+    "cohortId": "C0257",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "soap",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 10
+  },
+  {
+    "cohortId": "C0258",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "rolling_pin_board",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 10
+  },
+  {
+    "cohortId": "C0259",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "diary_notebook",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 10
+  },
+  {
+    "cohortId": "C0260",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bath_towel",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 10
+  },
+  {
+    "cohortId": "C0261",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "energy_sport_drink_mix",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0262",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ready_mix",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0263",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sauce_ketchup",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0264",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "edible_seed",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0265",
+    "marketplace": "FLIPKART",
+    "vertical": "diaper",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0266",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "blanket",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0267",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hand_messenger_bag",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0268",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "breast_pump",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0269",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "kalash",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0270",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "battery",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0271",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "vitamin_supplement",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0272",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mat",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0273",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "iron",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0274",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "grain_millet",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0275",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "vest",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 9
+  },
+  {
+    "cohortId": "C0276",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "lipstick",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0277",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bra",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0278",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mehendi",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0279",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "fryum_papad",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0280",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bathroom_floor_cleaner",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0281",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "keyboard",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0282",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "vehicle_pull_along",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0283",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hair_color",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0284",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bowl",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0285",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "face_pack",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0286",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "support",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0287",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "lassi",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0288",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "garden_sprayer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0289",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "insect_repellent",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0290",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "battery_charger",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0291",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mosquito_vaporise_refill",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0292",
+    "marketplace": "FLIPKART",
+    "vertical": "sari",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 8
+  },
+  {
+    "cohortId": "C0293",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "butter_milk",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0294",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "shoe",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0295",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "wallpaper",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0296",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sport_mat",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0297",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "air_fryer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0298",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "wipe",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0299",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sport_bag",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0300",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "car_pressure_washer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0301",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mouse",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0302",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hair_removal",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0303",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "shaving_razor",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0304",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "talc",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0305",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "calculator",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0306",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "kurta",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0307",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "toothbrush",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0308",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "slipcover",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 7
+  },
+  {
+    "cohortId": "C0309",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "protein_supplement",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0310",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "noodle",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0311",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "water",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0312",
+    "marketplace": "FLIPKART",
+    "vertical": "helmet",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0313",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bangle_bracelet_armlet",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0314",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "foil_shrinkwrap",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0315",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "general_bell",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0316",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "concentrate",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0317",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "religious_frame",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0318",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hand_juicer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0319",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bucket",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0320",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "portable_laptop_table",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0321",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "toy_weapon",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0322",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "incense_holder",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0323",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "colander_sieve_strainer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0324",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hair_straightener",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0325",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "helmet",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0326",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "body_pain_relief",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0327",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "balloon",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0328",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "rx_medicine",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 6
+  },
+  {
+    "cohortId": "C0329",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "air_freshener",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0330",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pickle_murabba",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0331",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ghee",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0332",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "talc",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0333",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sanitary_pad_pantyliner",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0334",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pet_food",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0335",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "toothpaste",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0336",
+    "marketplace": "FLIPKART",
+    "vertical": "water_geyser",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0337",
+    "marketplace": "FLIPKART",
+    "vertical": "electric_kettle",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0338",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "frame",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0339",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "fan",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0340",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bangle_bracelet_armlet",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0341",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "resistance_tube",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0342",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "washing_machine_trolley",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0343",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "vehicle_lubricant",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0344",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "role_play_toy",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0345",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "combo_kit",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0346",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "condom",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0347",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "kitchen_tool_set",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0348",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "rehal",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0349",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "action_figure",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0350",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "diya",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0351",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cup_saucer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0352",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "compact",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0353",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "card_game",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0354",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "menstrual_cup",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0355",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "party_gift_bag",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0356",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "infant_formula",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0357",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mattress_protector",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0358",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "stuffed_toy",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0359",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "plate_tray_dish",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0360",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "casserole",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0361",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "outdoor_toy",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0362",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "curtain",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0363",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "laptop_accessories_combo",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0364",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "key_chain",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 5
+  },
+  {
+    "cohortId": "C0365",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "soap",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0366",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "wipe",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0367",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "rusk",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0368",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "lip_balm",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0369",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "butter",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0370",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "liquid_detergent",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0371",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "coffee",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0372",
+    "marketplace": "FLIPKART",
+    "vertical": "sweater",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0373",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "legging",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0374",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "earring",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0375",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "fitness_grip",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0376",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "dhoti",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0377",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "inktoner",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0378",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cotton_ball_pad_bud",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0379",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "card_holder",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0380",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hair_comb",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0381",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "table_clock",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0382",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "crib_toy_play_gym",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0383",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "aftershave_lotion",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0384",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "incense_stick",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0385",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "kitchen_scissor",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0386",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "condiment_set",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0387",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cleaning_glove",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0388",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pooja_thali_set",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0389",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "car_kit",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0390",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bath_essential_oil",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0391",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "wind_chime",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0392",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bedding_set",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0393",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "dustbin",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0394",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "wall_decoration",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0395",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "stain_remover",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0396",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pickle_murabba",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0397",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "memory_card",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0398",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hook",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0399",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hair_dryer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0400",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "board_game",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0401",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pencil_box",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0402",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hair_styling",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0403",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "dairy_cream",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0404",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "dhoop_cone",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0405",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "scarf",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0406",
+    "marketplace": "FLIPKART",
+    "vertical": "jean",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 4
+  },
+  {
+    "cohortId": "C0407",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bathroom_floor_cleaner",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0408",
+    "marketplace": "FLIPKART",
+    "vertical": "headphone",
+    "returnReason": "MISSHIPMENT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0409",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "vitamin_supplement",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0410",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mascara",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0411",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "foundation",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0412",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "grain_millet",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0413",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "body_wash",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0414",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sugar",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0415",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pasta",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0416",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hair_accessory",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0417",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cap",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0418",
+    "marketplace": "FLIPKART",
+    "vertical": "cases_covers",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0419",
+    "marketplace": "FLIPKART",
+    "vertical": "jacket",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0420",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "all_purpose_cleaner",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0421",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "chewing_gum",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0422",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "herb_seasoning",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0423",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "lint_roller",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0424",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "gas_cylinder_trolley",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0425",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "glass_cleaner",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0426",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "antiseptic",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0427",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "baby_bottle",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0428",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "toran",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0429",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "dinner_set",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0430",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "water_bottle",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0431",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "lubricant",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0432",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "vacuum_cleaner",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0433",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "dish_washing_bar",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0434",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "prayer_kit",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0435",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "regionalbooks",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0436",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "car_cradle",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0437",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cleaning_cloth",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0438",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "desk_organizer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0439",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "swimming_cap",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0440",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hair_treatment",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0441",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "massager",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0442",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "dumbbell",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0443",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "block_construction",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0444",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "torch",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0445",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "kitchen_knife",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0446",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "wallet_card_wallet",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0447",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "duffel_bag",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0448",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "glass",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0449",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "lock",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0450",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mask",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0451",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ethnic_set",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0452",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "showpiece_figurine",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0453",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "clutch",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0454",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "kajal",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0455",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "book",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0456",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "baby_care_combo",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0457",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "digestive_probiotic",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0458",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "scrub",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0459",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "car_charger",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0460",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bat",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0461",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "whisk",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 3
+  },
+  {
+    "cohortId": "C0462",
+    "marketplace": "FLIPKART",
+    "vertical": "room_heater",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0463",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "dish_cleaning_gel",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0464",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "salt",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0465",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hair_serum",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0466",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "candy_mouth_freshener",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0467",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "conditioner",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0468",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "fryum_papad",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0469",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "nail_polish",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0470",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "milk_drink_mix",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0471",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "holi_color",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0472",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "kids_t_shirt",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0473",
+    "marketplace": "FLIPKART",
+    "vertical": "sweatshirt",
+    "returnReason": "SMART_PICKUP_CHECK_OVERRIDE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0474",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "jean",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0475",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "arm_sleeve",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0476",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sling_bag",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0477",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "panty",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0478",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "short",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0479",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "abaya_burqa",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0480",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "racquet",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0481",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "facial_tissue",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0482",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ice_cube",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0483",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "oil_dispenser",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0484",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "fabric_softener",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0485",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "allopathy",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0486",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sleeping_bag",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0487",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "rack_shelf",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0488",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "file_folder",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0489",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "women_intimate_care",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0490",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "make_up_remover",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0491",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "shankh",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0492",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "plant_sapling",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0493",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "eye_shadow",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0494",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "usb_gadget",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0495",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "electric_door_bell",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0496",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "aquarium_light",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0497",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hair_accessory",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0498",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "duffel_bag",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0499",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cargo",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0500",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "holi_festival_combo",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0501",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "fruit_vegetable_basket",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0502",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "scrub_pad",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0503",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "jewellery_set",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0504",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hookah_flavor",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0505",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "wafer_waffle",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0506",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "shaving_cartridge",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0507",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "chutney",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0508",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "storage_box",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0509",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "frame",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0510",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "washing_bar",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0511",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "paste_puree",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0512",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "vinegar",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0513",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sticker",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0514",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mobile_holder",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0515",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bar",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0516",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "dumpling_press",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0517",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sandal",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0518",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "belt",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0519",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cap",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0520",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "screen_guard",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0521",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "vehicle_light_bulb",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0522",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "skipping_rope",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0523",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "eye_mask",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0524",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sketch_pen",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0525",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "fork",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0526",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "t_shirt",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0527",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "massage_oil",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0528",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "usb_adaptor",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0529",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "faucet",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0530",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "garbage_bag",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0531",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "spin_press_launch_toy",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0532",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "valentine_gift_set",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0533",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pencil",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0534",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "rust_remover",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0535",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "puzzle",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0536",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "floor_lamp",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0537",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "seafood",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0538",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "shaving_foam",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0539",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pet_health_supplement",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0540",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pet_collar_harness",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0541",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ready_cook_snack",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0542",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "baby_carrier_cuddler",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0543",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "aquarium_filter",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0544",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "breath_freshener",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0545",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "art_craft_kit",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 2
+  },
+  {
+    "cohortId": "C0546",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bath_towel",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0547",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pot_pan",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0548",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bottle",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0549",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "chutney",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0550",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "vehicle_lubricant",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0551",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "makeup_kit",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0552",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "jaggery",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0553",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "kajal",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0554",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "blush",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0555",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "skin_treatment",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0556",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pen",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0557",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "remote_control_toy",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0558",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "herb_seasoning",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0559",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "soya_chunk",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0560",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "eye_liner",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0561",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "body_pain_relief",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0562",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "paste_puree",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0563",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "vinegar",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0564",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "honey",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0565",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "concentrate",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0566",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "massage_oil",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0567",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mosquito_vaporise_refill",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0568",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "condom",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0569",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "dish_washing_bar",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0570",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "washing_powder",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0571",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "toner",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0572",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "toilet_cleaner",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0573",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "fabric_softener",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0574",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "toy_weapon",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0575",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hat",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0576",
+    "marketplace": "FLIPKART",
+    "vertical": "headphone",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0577",
+    "marketplace": "FLIPKART",
+    "vertical": "sweatshirt",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0578",
+    "marketplace": "FLIPKART",
+    "vertical": "sweater",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0579",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "glue_gun",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0580",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "ring",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0581",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "kids_short",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0582",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "rucksack",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0583",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "phone_converter",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0584",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "storage_vacuum_bag",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0585",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "swimsuit",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0586",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "gas_lighter",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0587",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "medical_dressing",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0588",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "water_geyser",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0589",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "milk_powder",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0590",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "grocery_bag",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0591",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "altar_cloth",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0592",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "slipper_flip_flop",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0593",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "deity_ornament",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0594",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "kitchen_press",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0595",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hanger",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0596",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "flag",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0597",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "nail_filer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0598",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "compact_mirror",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0599",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "eye_cream",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0600",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "paint",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0601",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "drain_strainer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0602",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bra",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0603",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "kitchen_roll",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0604",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pouch_potli",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0605",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "boxer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0606",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "nail_polish",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0607",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "jean",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0608",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "normal_photo_frame",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0609",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "shoe_rack",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0610",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "router",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0611",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "drain_plunger",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0612",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pet_shampoo",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0613",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "deity_dress",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0614",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "electrical_plug",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0615",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "electric_ride_on",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0616",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "rolling_paper",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0617",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "selfie_stick",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0618",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "nail_clipper_cutter",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0619",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "handkerchief",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0620",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pocket_lighter",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0621",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "laptop_bag",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0622",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "artificial_flower",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0623",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "examination_pad",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0624",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "clothesline",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0625",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "color_pencil",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0626",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "henna",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0627",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "jug",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0628",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mould",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0629",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "air_tight_pouch",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0630",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "chyawanprash",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0631",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "clip",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0632",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "loofah",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0633",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "garden_tool_set",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0634",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "scissor",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0635",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sipper_cup",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0636",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "breast_nipple_shield",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0637",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hair_brush",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0638",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "dish_washing_detergent",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0639",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "gamingconsole",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0640",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "smart_glass",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0641",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "dustpan",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0642",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cello_tape_tape_disp",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0643",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "art_clay",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0644",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "fabric_whitener",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0645",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sandwich_maker",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0646",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "camisole_slip",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0647",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "teeth_whitening_kit",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0648",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "adhesive",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0649",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "clutch",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0650",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "baby_cereal",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0651",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "concealer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0652",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hammer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0653",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sari",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0654",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "induction_cook_top",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0655",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "weighing_scale",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0656",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "female_urination_device",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0657",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "mascara",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0658",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "party_glow_ornament",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0659",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "blush",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0660",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "artificial_plant",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0661",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "lantern",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0662",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "food_color",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0663",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "aquarium_tools",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0664",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "toilet_paper_roll",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0665",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "toner",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0666",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "fitness_band",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0667",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "kite_handle",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0668",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "puff_sponge",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0669",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bottle_nipple",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0670",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "cooling_pad",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0671",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "decoration",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0672",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "whiteboard_duster",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0673",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "home_security_camera",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0674",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "calendar",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0675",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hand_messenger_bag",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0676",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pet_hair_trimmer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0677",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "liquid_dispenser",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0678",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "peeler",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0679",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pendrive",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0680",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "stapler",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0681",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "kitchen_rack",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0682",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "punch_punching_machine",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0683",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "barbecue_grill",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0684",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "steamer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0685",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "chalk",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0686",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "jacket",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0687",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sock",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0688",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "laundry_basket",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0689",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "masher",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0690",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sling_bag",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0691",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "piping_bag",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0692",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "swimsuit",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0693",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "shoe_polish_cream",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0694",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "brush_duster_shiner",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0695",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bag",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0696",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "syrup",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0697",
+    "marketplace": "FLIPKART",
+    "vertical": "room_heater",
+    "returnReason": "MISSING_ITEM",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0698",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "crepe_bandage",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0699",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "shirt",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0700",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "table_cover",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0701",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "handkerchief",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0702",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "office_set",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0703",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "bib",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0704",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sexual_combo_kit",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0705",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "carpet_rug",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0706",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "computer_acc_combo",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0707",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "tire_air_pump",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0708",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hair_volumizer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0709",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "crack_filler",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0710",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "blackhead_remover",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0711",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "goggle",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0712",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "smoking_patch",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0713",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "storage_organizer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0714",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "sewing_kit",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0715",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "baking_ingredient",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0716",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "stacking_toy",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0717",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "shuttle",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0718",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "napkin",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0719",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "spatula",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0720",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "hip_flask",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0721",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "home_cleaning_set",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0722",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "primer",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0723",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "track_pant",
+    "returnReason": "QUALITY_ISSUE",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0724",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "foam_roller",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  },
+  {
+    "cohortId": "C0725",
+    "marketplace": "HYPERLOCAL",
+    "vertical": "pop_up_toaster",
+    "returnReason": "DAMAGED_PRODUCT",
+    "incidents": 1
+  }
+]

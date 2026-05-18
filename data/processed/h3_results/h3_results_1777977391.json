@@ -1,0 +1,1714 @@
+{
+  "config": {
+    "agent": "both",
+    "limit": 20,
+    "dry_run": false,
+    "generation_config": {
+      "maxOutputTokens": 300,
+      "temperature": 0.0,
+      "topP": 0.4,
+      "topK": 32,
+      "seed": 2025,
+      "thinkingConfig": {
+        "thinkingBudget": 0
+      }
+    },
+    "image_compression": {
+      "width": 1000,
+      "height": 1000,
+      "quality": 85
+    }
+  },
+  "summary": {
+    "total": 40,
+    "matches": 33,
+    "mismatches": 7,
+    "errors": 0,
+    "consistency_pct": 82.5
+  },
+  "results": [
+    {
+      "incident_id": "IN26020722095225379286",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The catalog image shows a saree with a floral pattern and a gold blouse. The wild image shows only gold fabric. | Damage: None | Missing: None | Confidence: 100\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Gold fabric\", \"product_in_catalogimage\": \"Black and floral saree with gold blouse\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Black and Gold Floral Saree with Gold Blouse\", \"product_in_wildimage\": \"Gold fabric with herringbone pattern (Wild_Image_1)\", \"reason\": \"Visibility: Clear | Score: 8/10 | Identity: Mismatch - The Wild image shows a plain gold fabric with a herringbone pattern, which does not match the black and gold floral saree with a plain gold blouse shown in the Catalog image. The pattern, color distribution, and overall design are different. | Damage: None | Missing: None | Confidence: 95\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 3,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4775,
+        "candidatesTokenCount": 145,
+        "totalTokenCount": 4920,
+        "cachedContentTokenCount": 2043,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 331
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 1712
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 145
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26020722095225379286",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "Can't Say",
+      "original_output": "{\"analysis\": \"No OBD image showing product\", \"decision\": \"Can't Say\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"Black Floral Saree with Gold Border\", \"product_in_wildimage\": \"Black Floral Fabric (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Partial (in Wild_Image_1) | Score: 7/10 | Identity: Match - The visible pattern and color scheme in Wild_Image_1 align with the Catalog image. The item is in a clear plastic bag, allowing for partial visibility of the product's features. | Damage: None | Missing: None | Confidence: 95\", \"product_match\": \"No Issue\"}",
+      "match": false,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 140,
+        "totalTokenCount": 4651,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 140
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022018592806222677",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Can't Say",
+      "original_output": "{\"analysis\": \"No CX image showing product\", \"decision\": \"Can't Say\"}",
+      "rerun_decision": "Can't Say",
+      "rerun_output": "{\"product_in_catalogimage\": \"Pink and Navy Blue Banarasi Silk Saree with Gold Zari Work\", \"product_in_wildimage\": \"Not Visible (All images are black/opaque)\", \"reason\": \"Visibility: Zero | Score: 0/10 | Identity: Cannot Verify - All provided wild images are completely black/opaque, making it impossible to discern any product details. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"Can't Say\"}",
+      "match": true,
+      "image_count": 4,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 5033,
+        "candidatesTokenCount": 122,
+        "totalTokenCount": 5155,
+        "cachedContentTokenCount": 2044,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1032
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1625
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 419
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 122
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022018592806222677",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "No Issue",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 9/10 | Identity: Match - The color, pattern, and material (silk-like appearance with zari weave) of the saree in the Obd Image closely match the Catalog image. The border design and main body pattern are consistent. | Damage: None | Missing: None | Confidence: 95\", \"decision\": \"No Issue\", \"product_in_wildimage\": \"Pink and Navy Blue Saree with Gold Weave (Visible in Obd Image)\", \"product_in_catalogimage\": \"Pink and Navy Blue Silk Saree with Gold Zari Weave\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"Pink and Navy Blue Silk Saree with Gold Zari Weave\", \"product_in_wildimage\": \"Pink and Navy Blue Saree with Gold Weave (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Clear | Score: 9/10 | Identity: Match - The pattern, color combination (pink body, navy blue border with gold zari), and material appearance (silk-like weave) in Wild_Image_1 closely match the Catalog image. | Damage: None | Missing: None | Confidence: 95\", \"product_match\": \"No Issue\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 144,
+        "totalTokenCount": 4655,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 144
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022117274308785540",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Major Damage",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 10/10 | Identity: Match - The yellow fabric and golden/red striped pattern match the catalog image. | Damage: Major Damage - The Cx Image clearly shows a significant tear/hole in the yellow fabric of the saree. | Missing: None | Confidence: 100\", \"decision\": \"Major Damage\", \"product_in_wildimage\": \"Yellow Saree with a tear (Visible in Cx Image)\", \"product_in_catalogimage\": \"Yellow and Red Striped Saree\"}",
+      "rerun_decision": "Minor Damage",
+      "rerun_output": "{\"product_in_catalogimage\": \"Yellow and Red Striped Saree with Gold Border\", \"product_in_wildimage\": \"Yellow Saree with Gold Pattern (Visible in Wild_Image_2)\", \"reason\": \"Visibility: Clear (in Wild_Image_2) | Score: 8/10 | Identity: Match | Damage: Minor Damage - Wild_Image_2 shows a small tear/hole in the yellow fabric. | Missing: None | Confidence: 90 | Note: Wild_Image_1 and Wild_Image_3 are completely dark and invalid.\", \"product_match\": \"Minor Damage\"}",
+      "match": false,
+      "image_count": 4,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 5033,
+        "candidatesTokenCount": 144,
+        "totalTokenCount": 5177,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1032
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 628
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 2437
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 144
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022117274308785540",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "No Issue",
+      "original_output": "{\"analysis\": \"Visibility: Partial | Score: 4/10 | Identity: Match - The visible fabric in Wild_Image_1 shows yellow and red colors with a striped pattern, consistent with the Catalog image. | Damage: None | Missing: None | Confidence: 80\", \"decision\": \"No Issue\", \"product_in_wildimage\": \"Yellow and Red Fabric (partially visible in Wild_Image_1)\", \"product_in_catalogimage\": \"Yellow and Red Striped Saree\"}",
+      "rerun_decision": "Can't Say",
+      "rerun_output": "{\"product_in_catalogimage\": \"Yellow and Red Striped Saree\", \"product_in_wildimage\": \"Not Visible (Opaque Packaging)\", \"reason\": \"Visibility: Zero | Score: 0/10 | Identity: Cannot Verify - Wild_Image_1 shows the product inside an opaque plastic bag, preventing clear identification of the item's features, color, or pattern. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"Can't Say\"}",
+      "match": false,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 122,
+        "totalTokenCount": 4633,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 122
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022121343655406891",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Minor Damage",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 9/10 | Identity: Match - The fabric, color, and zari work pattern in the Cx Image closely match the saree in the Catalog Image. | Damage: Minor Damage - A noticeable stain is present on the fabric in the Cx Image. | Missing: None | Confidence: 95\", \"decision\": \"Minor Damage\", \"product_in_wildimage\": \"Red Silk Fabric with Gold Zari Work (Visible in Cx Image)\", \"product_in_catalogimage\": \"Red and Green Silk Saree with Gold Zari Work\"}",
+      "rerun_decision": "Minor Damage",
+      "rerun_output": "{\"product_in_catalogimage\": \"Red and Green Banarasi Silk Saree with intricate patterns\", \"product_in_wildimage\": \"Red Saree with silver/gold patterns (Visible in Wild_Image_2)\", \"reason\": \"Visibility: Clear (in Wild_Image_2) | Score: 10/10 | Identity: Match - The saree in Wild_Image_2 matches the color and pattern of the saree in the Catalog image. Wild_Image_1 and Wild_Image_3 are screenshots of a refund/pickup page and are not relevant to the product. | Damage: Minor Damage - Wild_Image_2 shows a visible stain/discoloration on the red fabric. | Missing: None | Confidence: 100\", \"product_match\": \"Minor Damage\"}",
+      "match": true,
+      "image_count": 4,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 5033,
+        "candidatesTokenCount": 181,
+        "totalTokenCount": 5214,
+        "cachedContentTokenCount": 2044,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1032
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1625
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 419
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 181
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022121343655406891",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Partial (Obd Image) | Score: 6/10 | Identity: Mismatch - The color family (Red/Green vs Light Purple/Pink) and the specific floral pattern differ significantly. The Catalog shows a distinct red and green saree with a specific floral design, while the Wild image shows a light purple/pink fabric with a different floral pattern. | Damage: None | Missing: None | Confidence: 100\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Light Purple/Pink Floral Patterned Fabric (Visible in Obd Image)\", \"product_in_catalogimage\": \"Red and Green Floral Patterned Saree\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Red and Green Floral Patterned Saree with Blouse\", \"product_in_wildimage\": \"Light Purple/Pink Floral Patterned Fabric (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Partial (in Wild_Image_1) | Score: 6/10 | Identity: Mismatch - The Catalog image shows a red and green saree with a distinct floral pattern, while Wild_Image_1 shows a light purple/pink fabric with a different floral pattern. The base color family and pattern type/density clearly differ. | Damage: None | Missing: None | Confidence: 95\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 159,
+        "totalTokenCount": 4670,
+        "cachedContentTokenCount": 2043,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1810
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 233
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 159
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022220493088929302",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Partial (through transparent bag) | Score: 4/10 | Identity: Mismatch - The Catalog shows a light blue floral saree, while the Wild Image shows a solid pink fabric. The color and pattern are distinctly different. | Damage: None | Missing: None | Confidence: 100 | Note: The product is visible through a transparent bag, allowing for identity verification.\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Pink Fabric (inside transparent bag)\", \"product_in_catalogimage\": \"Light Blue Floral Saree\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Light blue floral saree with matching blouse piece\", \"product_in_wildimage\": \"Pink fabric (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Partial (in Wild_Image_1) | Score: 4/10 | Identity: Mismatch - The catalog shows a light blue floral saree, while Wild_Image_1 shows a pink fabric. Wild_Image_2 is an opaque packaging. | Damage: None | Missing: None | Confidence: 100 | Note: Wild_Image_1 shows a pink fabric inside a transparent bag, allowing for color and material comparison. Wild_Image_2 is an opaque packaging.\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 4,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 5033,
+        "candidatesTokenCount": 168,
+        "totalTokenCount": 5201,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1032
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2437
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 628
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 168
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022220493088929302",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "No Issue",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 8/10 | Identity: Match - The floral pattern, base color, and fabric texture in the Obd Image clearly match the Catalog Image. The item is visible through the transparent packaging. | Damage: None | Missing: None | Confidence: 95\", \"decision\": \"No Issue\", \"product_in_wildimage\": \"Light Blue Floral Fabric (Visible in Obd Image)\", \"product_in_catalogimage\": \"Light Blue Floral Saree with Tassels\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"Light Blue Floral Saree with matching blouse piece\", \"product_in_wildimage\": \"Light Blue Floral Fabric (inside transparent bag)\", \"reason\": \"Visibility: Partial (in Wild_Image_1) | Score: 6/10 | Identity: Match - The floral pattern and light blue base color visible through the transparent bag in Wild_Image_1 match the Catalog image. The transparent override rule applies here. | Damage: None | Missing: None | Confidence: 90\", \"product_match\": \"No Issue\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 132,
+        "totalTokenCount": 4643,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 132
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022317023900147949",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The Wild Images show a dark blue saree with gold embroidery and a peach/orange blouse piece, which differs significantly in color from the teal saree with gold embroidery and red blouse piece shown in the Catalog Image. | Damage: None | Missing: None | Confidence: 100 | Note: Wild_Image_1 shows the saree in packaging, Wild_Image_2 shows the blouse piece out of packaging.\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Dark Blue Saree with Gold Embroidery (Wild_Image_1) and Peach/Orange Blouse Piece (Wild_Image_2)\", \"product_in_catalogimage\": \"Teal Saree with Gold Embroidery and Red Blouse Piece\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Teal and Red Embroidered Saree with Blouse Piece\", \"product_in_wildimage\": \"Orange Embroidered Blouse Piece (Visible in Wild_Image_2)\", \"reason\": \"Visibility: Clear (in Wild_Image_2) | Score: 10/10 | Identity: Mismatch - The Wild image shows an orange embroidered blouse piece, which differs significantly in color and pattern from the teal saree and red blouse piece shown in the Catalog image. Wild_Image_1 shows the product in opaque packaging. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 4,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 5033,
+        "candidatesTokenCount": 157,
+        "totalTokenCount": 5190,
+        "cachedContentTokenCount": 2044,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1032
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 419
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 1625
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 157
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022317023900147949",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "Can't Say",
+      "original_output": "{\"analysis\": \"No OBD image showing product\", \"decision\": \"Can't Say\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"Teal Saree with Gold Embroidery and Red Blouse Piece\", \"product_in_wildimage\": \"Teal Saree with Gold Embroidery and Red Blouse Piece (Visible in Wild_Image_2)\", \"reason\": \"Visibility: Clear (in Image 2) | Score: 10/10 | Identity: Match - The saree and blouse piece in Wild_Image_2 perfectly match the Catalog image in color, material, and embroidery pattern. Wild_Image_1 is an opaque, dark image and provides no product information. | Damage: None | Missing: None | Confidence: 100 | Note: Wild_Image_1 was invalid, but Wild_Image_2 clearly shows the product.\", \"product_match\": \"No Issue\"}",
+      "match": false,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 179,
+        "totalTokenCount": 4690,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 350
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 2715
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 179
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022319520991740079",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The Catalog image shows a black and grey ombre saree, while the Wild image shows a solid blue saree. The color and pattern (ombre vs solid) differ significantly. | Damage: None | Missing: None | Confidence: 100\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Solid Blue Saree with Mirror Work Border (Visible in Cx Image)\", \"product_in_catalogimage\": \"Black and Grey Ombre Saree with Mirror Work Border\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Black and Grey Ombre Saree with Mirror Work Border\", \"product_in_wildimage\": \"Blue Saree with Mirror Work Border (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The color of the saree in the wild image is blue, while the catalog image shows a black and grey ombre saree. The mirror work border appears similar. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 3,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4775,
+        "candidatesTokenCount": 137,
+        "totalTokenCount": 4912,
+        "cachedContentTokenCount": 2043,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 331
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 1712
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 137
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022319520991740079",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "Can't Say",
+      "original_output": "{\"analysis\": \"Visibility: Partial (in Wild_Image_1) | Score: 4/10 | Identity: Cannot fully verify. The item is in opaque plastic packaging. While some mirror work and a blue border are visible, the overall color gradient and full design cannot be confirmed against the Catalog image. | Damage: Cannot assess due to packaging | Missing: Cannot assess due to packaging | Confidence: 70 | Note: Wild_Image_1 shows the product in packaging, making full verification difficult.\", \"decision\": \"Can't Say\", \"product_in_wildimage\": \"Saree in opaque plastic packaging (Wild_Image_1)\", \"product_in_catalogimage\": \"Grey and Black Ombre Saree with Mirror Work\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Black and Grey Ombre Saree with Sequin Embellishments\", \"product_in_wildimage\": \"Black/Blue fabric with white sequins in opaque packaging (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Partial (through opaque bag) | Score: 4/10 | Identity: Mismatch - Catalog shows a black and grey ombre saree with sequins. Wild_Image_1 shows a black/blue fabric with white sequins, which does not match the color or pattern of the catalog image. The packaging is also opaque, making full verification impossible. | Damage: None | Missing: None | Confidence: 80 | Note: Wild_Image_1 is partially obscured by opaque packaging, but enough detail is visible to identify a mismatch in color and pattern.\", \"product_match\": \"Misshipment\"}",
+      "match": false,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 192,
+        "totalTokenCount": 4703,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2715
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 350
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 192
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022320320446138863",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The Catalog image shows a saree with extensive beadwork and scalloped edges, while the Wild image shows a saree with a satin border, rose appliques, and scattered rhinestones. The material, pattern, and embellishment style are distinctly different. | Damage: None | Missing: None | Confidence: 100\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Pink Saree with satin border and rose appliques (Visible in Cx Image)\", \"product_in_catalogimage\": \"Pink/Peach Saree with intricate beadwork and scalloped edges\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Pink saree with intricate beadwork and scalloped edges\", \"product_in_wildimage\": \"Pink saree with satin border, embroidered roses, and scattered rhinestones (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The Wild image shows a pink saree with a satin border, embroidered roses, and scattered rhinestones. The Catalog image shows a pink saree with intricate beadwork and scalloped edges, a different material, and a different design. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 3,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4775,
+        "candidatesTokenCount": 156,
+        "totalTokenCount": 4931,
+        "cachedContentTokenCount": 3066,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2569
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 497
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 156
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022320320446138863",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "No Issue",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 8/10 | Identity: Match - The color, fabric texture, and embellishment style of the fabric in the Obd Image closely match the Catalog Image. The item is placed on a vehicle part, but the product itself is clearly visible and is the focus. | Damage: None | Missing: None | Confidence: 95\", \"decision\": \"No Issue\", \"product_in_wildimage\": \"Pink/Peach Fabric with Embellishments (Visible in Obd Image)\", \"product_in_catalogimage\": \"Pink/Peach Saree with Embellishments\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"Pink/Peach Saree with Embellishments\", \"product_in_wildimage\": \"Pink/Peach Saree with Embellishments (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Clear (in Wild_Image_1) | Score: 8/10 | Identity: Match - The color, fabric texture, and embellishment pattern on the saree in Wild_Image_1 closely match the Catalog image. Wild_Image_1 shows the product placed on a motorbike, but the product itself is clearly visible and is the focus. | Damage: None | Missing: None | Confidence: 95\", \"product_match\": \"No Issue\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 160,
+        "totalTokenCount": 4671,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2715
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 350
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 160
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022411210821512712",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The Catalog image shows a golden shimmer saree, while both Wild_Image_1 and Wild_Image_2 show a blue/green shimmer fabric with a gold border. The base color family is significantly different. | Damage: None | Missing: None | Confidence: 100\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Blue/Green Shimmer Fabric with Gold Border (Visible in Wild_Image_1 and Wild_Image_2)\", \"product_in_catalogimage\": \"Golden Shimmer Saree with Embellished Border\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Golden-Green Shimmer Saree with Embellished Border\", \"product_in_wildimage\": \"Blue-Gold Shimmer Fabric with Embellished Border (Visible in Wild_Image_1 and Wild_Image_2)\", \"reason\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The primary color of the fabric in the wild images is blue-gold, while the catalog image shows a golden-green saree. The shimmer and border style appear similar, but the base color is significantly different. | Damage: None | Missing: None | Confidence: 95\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 4,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 5033,
+        "candidatesTokenCount": 158,
+        "totalTokenCount": 5191,
+        "cachedContentTokenCount": 2044,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1032
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 419
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 1625
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 158
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022411210821512712",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "Can't Say",
+      "original_output": "{\"analysis\": \"Visibility: Zero | Score: 0/10 | Identity: Cannot Verify - The wild image shows a product inside an opaque courier bag, placed on a motorbike. The actual product is not visible. | Damage: None | Missing: None | Confidence: 100\", \"decision\": \"Can't Say\", \"product_in_wildimage\": \"Opaque packaging on a motorbike\", \"product_in_catalogimage\": \"Golden Silk Saree\"}",
+      "rerun_decision": "Can't Say",
+      "rerun_output": "{\"product_in_catalogimage\": \"Golden Shimmer Saree\", \"product_in_wildimage\": \"Opaque Flipkart Bag (Wild_Image_1)\", \"reason\": \"Visibility: Zero | Score: 0/10 | Identity: Cannot Verify - Wild_Image_1 shows an opaque courier bag, preventing any view of the product inside. The product is placed on a motorbike dashboard, but the product itself is not visible. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"Can't Say\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 131,
+        "totalTokenCount": 4642,
+        "cachedContentTokenCount": 2043,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 233
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 1810
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 131
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022411382264613222",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Can't Say",
+      "original_output": "{\"analysis\": \"No CX image showing product\", \"decision\": \"Can't Say\"}",
+      "rerun_decision": "Can't Say",
+      "rerun_output": "{\"product_in_catalogimage\": \"Purple and Gold Saree with Blouse\", \"product_in_wildimage\": \"Not Visible (Only a red textured surface)\", \"reason\": \"Visibility: Zero | Score: 0/10 | Identity: Cannot Verify - Wild_Image_1 shows only a red textured surface, no product is visible. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"Can't Say\"}",
+      "match": true,
+      "image_count": 3,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4775,
+        "candidatesTokenCount": 113,
+        "totalTokenCount": 4888,
+        "cachedContentTokenCount": 3066,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 497
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 2569
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 113
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022411382264613222",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Partial (in Obd Image) | Score: 4/10 | Identity: Mismatch - The Catalog image shows a purple and gold saree, while the Wild image shows a red fabric. The category and color are completely different. | Damage: None | Missing: None | Confidence: 100 | Note: The Obd Image shows a product in a clear plastic bag, allowing for partial visibility of the item inside.\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Red fabric in a clear plastic bag (Visible in Obd Image)\", \"product_in_catalogimage\": \"Purple and Gold Saree with Blouse\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Woman wearing a purple and gold saree with a matching blouse\", \"product_in_wildimage\": \"Red fabric in a clear plastic bag (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Clear (in Wild_Image_1) | Score: 8/10 | Identity: Mismatch - The Catalog image shows a woman wearing a purple and gold saree, while Wild_Image_1 shows a red fabric item in a plastic bag. The product category and color are completely different. | Damage: None | Missing: None | Confidence: 100 | Note: The Catalog image is a model shot of a saree. Wild_Image_1 shows a packaged fabric item, clearly not a saree and of a different color.\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 185,
+        "totalTokenCount": 4696,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 185
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022411595309033806",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Multiple Issue",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 8/10 | Identity: Mismatch - The color of the fabric in the wild image is a dark green/black, which significantly differs from the light green color of the saree in the catalog image. The fabric also appears to be two different pieces rather than a single saree. | Damage: Minor Damage - The fabric in the wild image appears to be frayed and torn at the edges. | Missing: None | Confidence: 95 | Note: Wild_Image_1 shows a clear view of the product.\", \"decision\": \"Multiple Issue\", \"product_in_wildimage\": \"Dark Green/Black Fabric with Sequins (Visible in Wild_Image_1)\", \"product_in_catalogimage\": \"Light Green Sequin Saree with Ruffles\"}",
+      "rerun_decision": "Multiple Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"Light Green Sequin Saree with Ruffles\", \"product_in_wildimage\": \"Dark Green/Black Fabric with Sequins (Wild_Image_1)\", \"reason\": \"Visibility: Clear | Score: 9/10 | Identity: Mismatch - The color of the saree in the wild image appears to be a dark green/black, which is significantly different from the light green shown in the catalog. The fabric texture and sequin pattern seem similar, but the color difference is stark. | Damage: Major Damage - The fabric in Wild_Image_1 shows significant tearing and unraveling threads, indicating major damage. | Missing: None | Confidence: 95 | Note: The wild image shows a damaged product with a color mismatch.\", \"product_match\": \"Multiple Issue\"}",
+      "match": true,
+      "image_count": 4,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 5033,
+        "candidatesTokenCount": 184,
+        "totalTokenCount": 5217,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1032
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2437
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 628
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 184
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022411595309033806",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "No Issue",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 9/10 | Identity: Match - The fabric, ruffles, and sequins in the Wild Image match the Catalog image. The color is a close match, accounting for lighting differences. | Damage: None | Missing: None | Confidence: 95 | Note: The product is placed on a motorbike, but the product itself is clearly visible and is the focus.\", \"decision\": \"No Issue\", \"product_in_wildimage\": \"Green Ruffled Sequin Fabric (Visible in Obd Image)\", \"product_in_catalogimage\": \"Lime Green Ruffled Sequin Saree\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"Light Green Ruffled Saree with Sequins\", \"product_in_wildimage\": \"Light Green Fabric with Sequins (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Clear (in Wild_Image_1) | Score: 8/10 | Identity: Match - The fabric color, sequin pattern, and ruffled texture appear to match the saree in the Catalog image. The item is placed on a bike dashboard, but the product itself is clearly visible and is the focus. | Damage: None | Missing: None | Confidence: 90\", \"product_match\": \"No Issue\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 149,
+        "totalTokenCount": 4660,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 350
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 2715
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 149
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022413265701835081",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "No Issue",
+      "original_output": "{\"analysis\": \"Visibility: Partial (through transparent bag) | Score: 6/10 | Identity: Match - The pattern and color scheme visible through the transparent bag in the Cx Image appear to match the embroidered saree in the Catalog Image. | Damage: None | Missing: None | Confidence: 90 | Note: The product is visible through a transparent bag, allowing for identity verification.\", \"decision\": \"No Issue\", \"product_in_wildimage\": \"Black and Grey Embroidered Fabric (Visible in Cx Image)\", \"product_in_catalogimage\": \"Black and Grey Embroidered Saree\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"Black and Grey Embroidered Saree\", \"product_in_wildimage\": \"Black and Grey Embroidered Fabric (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Clear | Score: 8/10 | Identity: Match - The embroidery pattern and color scheme visible through the transparent bag in Wild_Image_1 match the Catalog image. | Damage: None | Missing: None | Confidence: 95\", \"product_match\": \"No Issue\"}",
+      "match": true,
+      "image_count": 3,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4775,
+        "candidatesTokenCount": 119,
+        "totalTokenCount": 4894,
+        "cachedContentTokenCount": 2043,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1712
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 331
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 119
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022413265701835081",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "Can't Say",
+      "original_output": "{\"analysis\": \"No OBD image showing product\", \"decision\": \"Can't Say\"}",
+      "rerun_decision": "Can't Say",
+      "rerun_output": "{\"product_in_catalogimage\": \"Black and Grey Embroidered Saree\", \"product_in_wildimage\": \"Not Visible (Opaque Packaging)\", \"reason\": \"Visibility: Zero | Score: 0/10 | Identity: Cannot Verify - Wild_Image_1 shows the product inside an opaque plastic bag, preventing any assessment of its identity, damage, or missing components. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"Can't Say\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 120,
+        "totalTokenCount": 4631,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 350
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 2715
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 120
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022414473490095793",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Partial (Wild_Image_1), Obstructed (Wild_Image_2) | Score: 6/10 | Identity: Mismatch - Catalog shows a lime green saree with a distinct pink border and tassels. Wild_Image_1 shows a yellow/lime green fabric with some pink embroidery, but the overall pattern and border style do not match the catalog. The label in Wild_Image_1 also states 'MEN'S Casual Shirt' and 'Colour: Brown', which is a clear contradiction to the catalog image of a saree. Wild_Image_2 shows a pink fabric, which could be the blouse piece, but the main saree is not clearly visible or identifiable as the catalog product. | Damage: None | Missing: None | Confidence: 100 | Note: Wild_Image_1 provides strong evidence of misshipment due to the product label and visible fabric not matching the catalog saree. Wild_Image_2 is less clear but does not contradict the misshipment.\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Yellow/Lime Green Fabric with Pink Embroidery (Wild_Image_1), Pink Fabric (Wild_Image_2)\", \"product_in_catalogimage\": \"Lime Green Saree with Pink Border and Tassels\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Lime Green Saree with Pink Border and Tassels\", \"product_in_wildimage\": \"Yellow/Pink Garment (Visible in Wild_Image_2 and Wild_Image_3)\", \"reason\": \"Visibility: Partial (in Wild_Image_2 and Wild_Image_3) | Score: 6/10 | Identity: Mismatch - Catalog shows a lime green saree with specific pink border and tassels. Wild_Image_2 and Wild_Image_3 show a yellow garment with some pink, but it appears to be a shirt/kurta based on the label in Wild_Image_2 ('MEN'S Casual Shirt') and the overall shape, not a saree. The color, category, and pattern are different. Wild_Image_1 is opaque packaging. | Damage: None | Missing: None | Confidence: 100 | Note: Wild_Image_1 is invalid (opaque packaging). Wild_Image_2 and Wild_Image_3 are valid and show a clear mismatch.\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 4,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 5033,
+        "candidatesTokenCount": 242,
+        "totalTokenCount": 5275,
+        "cachedContentTokenCount": 2044,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1032
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1625
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 419
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 242
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022414473490095793",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 8/10 | Identity: Mismatch - The base color of the fabric in the wild image appears more yellow than the distinct lime green in the catalog. While the pink border is present, the overall color tone is significantly different. | Damage: None | Missing: None | Confidence: 90\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Yellow/Lime Green Fabric with Pink Border (Visible in Obd Image)\", \"product_in_catalogimage\": \"Lime Green Saree with Pink and Gold Border and Tassels\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Lime Green Saree with Pink and Gold Border and Tassels\", \"product_in_wildimage\": \"Yellow Fabric with Pink and Gold Border (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Clear | Score: 9/10 | Identity: Mismatch - The base color of the fabric in Wild_Image_1 is yellow, while the Catalog image shows a lime green saree. The border design and color (pink and gold) appear similar, but the primary color difference constitutes a misshipment. | Damage: None | Missing: None | Confidence: 95\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 155,
+        "totalTokenCount": 4666,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2715
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 350
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 155
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022416513845681422",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "No Issue",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 9/10 | Identity: Match - The color, fabric texture, and intricate gold embroidery pattern in the wild image closely match the catalog image. | Damage: None | Missing: None | Confidence: 95\", \"decision\": \"No Issue\", \"product_in_wildimage\": \"Purple Fabric with Gold Embroidery (Visible in Wild_Image_1)\", \"product_in_catalogimage\": \"Purple Saree with Gold Embroidery\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"Purple Saree with intricate gold embroidery\", \"product_in_wildimage\": \"Purple fabric with gold embroidery (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Clear | Score: 9/10 | Identity: Match - The color, fabric texture, and intricate gold embroidery pattern in Wild_Image_1 closely match the Catalog image. | Damage: None | Missing: None | Confidence: 95\", \"product_match\": \"No Issue\"}",
+      "match": true,
+      "image_count": 4,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 5033,
+        "candidatesTokenCount": 119,
+        "totalTokenCount": 5152,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1032
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 628
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 2437
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 119
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022416513845681422",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "No Issue",
+      "original_output": "{\"analysis\": \"Visibility: Partial | Score: 7/10 | Identity: Match - The visible fabric color and gold embroidery pattern in the Obd Image appear to match the Catalog image. | Damage: None | Missing: None | Confidence: 90\", \"decision\": \"No Issue\", \"product_in_wildimage\": \"Purple Fabric with Gold Embroidery (Visible in Obd Image)\", \"product_in_catalogimage\": \"Purple Saree with Gold Embroidery\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"Purple Saree with Gold Embroidery\", \"product_in_wildimage\": \"Purple Fabric with White Embroidery (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Partial (in Image 1) | Score: 6/10 | Identity: Match - The visible fabric and embroidery pattern in Wild_Image_1 closely match the Catalog image. The color also appears consistent. | Damage: None | Missing: None | Confidence: 90 | Note: Wild_Image_1 shows the product inside a transparent bag, allowing for partial visibility of the item's features.\", \"product_match\": \"No Issue\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 151,
+        "totalTokenCount": 4662,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 151
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022417371514510414",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The base color of the fabric in the Wild Images is white/cream, while the Catalog image shows a light green saree. The floral patterns are similar in style but the overall color scheme is different. | Damage: None | Missing: None | Confidence: 100\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"White/Cream Fabric with Floral and Paisley Patterns (Visible in Wild_Image_1, Wild_Image_2, Wild_Image_3)\", \"product_in_catalogimage\": \"Light Green Saree with Floral and Paisley Patterns\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Light Green Saree with Floral and Paisley Pattern\", \"product_in_wildimage\": \"White/Cream Saree with Floral and Paisley Pattern (Visible in Wild_Image_1, Wild_Image_2, Wild_Image_3)\", \"reason\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The base color of the saree in the Wild Images is white/cream, while the Catalog image shows a light green saree. The floral and paisley patterns are similar in style but the color palette of the patterns also differs slightly. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 4,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 5033,
+        "candidatesTokenCount": 164,
+        "totalTokenCount": 5197,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1032
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2437
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 628
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 164
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022417371514510414",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "Can't Say",
+      "original_output": "{\"analysis\": \"No OBD image showing product\", \"decision\": \"Can't Say\"}",
+      "rerun_decision": "Can't Say",
+      "rerun_output": "{\"product_in_catalogimage\": \"Light Green Floral Saree with Gold Border\", \"product_in_wildimage\": \"Not Visible (Opaque/Blurry image only)\", \"reason\": \"Visibility: Zero | Score: 0/10 | Identity: Cannot Verify - Wild_Image_1 is completely opaque/blurry and does not show any product. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"Can't Say\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 116,
+        "totalTokenCount": 4627,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 350
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 2715
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 116
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022419173679668058",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The Catalog shows a purple saree, while the Wild Image shows a yellow polo shirt. Category and color differ significantly. | Damage: None | Missing: None | Confidence: 100\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Yellow Polo Shirt (Visible in Cx Image)\", \"product_in_catalogimage\": \"Purple Saree with Butterfly Embellishments\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Purple Saree with Butterfly Embroidery\", \"product_in_wildimage\": \"Yellow Polo T-shirt (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - Catalog shows a purple saree, while Wild_Image_1 shows a yellow polo t-shirt. The category, color, and design are completely different. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 3,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4775,
+        "candidatesTokenCount": 130,
+        "totalTokenCount": 4905,
+        "cachedContentTokenCount": 3066,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 497
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 2569
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 130
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022419173679668058",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "No Issue",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 9/10 | Identity: Match - The color, material, and butterfly embellishment pattern of the saree in the Obd Image perfectly match the Catalog Image. | Damage: None | Missing: None | Confidence: 100\", \"decision\": \"No Issue\", \"product_in_wildimage\": \"Purple Saree with Butterfly Embellishments (Visible in Obd Image)\", \"product_in_catalogimage\": \"Purple Saree with Butterfly Embellishments\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"Purple Saree with Butterfly Embellishments\", \"product_in_wildimage\": \"Purple Fabric with Butterfly Embellishments (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Partial (due to plastic packaging) | Score: 7/10 | Identity: Match - The color, material texture (shimmer), and butterfly embellishment pattern are consistent with the Catalog image. The item is in a clear plastic bag, allowing for identity verification. | Damage: None | Missing: None | Confidence: 95 | Note: Wild_Image_1 shows the product on a motorbike seat, but the product is clearly in the foreground and visible.\", \"product_match\": \"No Issue\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 166,
+        "totalTokenCount": 4677,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2715
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 350
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 166
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022419471994268060",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The primary colors of the saree in the Wild Images (Pink and Light Green) are significantly different from the Catalog Image (White and Red). The pattern style is similar but the color hierarchy is inverted and the base colors are different. | Damage: None | Missing: None | Confidence: 100\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Pink and Light Green Saree with Gold Zari Weave (Visible in all Wild Images)\", \"product_in_catalogimage\": \"White and Red Saree with Gold Zari Weave\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"White and Red Saree with Gold Zari Work and Paisley/Floral Patterns\", \"product_in_wildimage\": \"Pink and Light Green Saree with Silver Zari Work and Paisley/Floral Patterns (Visible in Wild_Image_1, Wild_Image_2, Wild_Image_3)\", \"reason\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The base colors (White/Red vs. Pink/Light Green) and the Zari work color (Gold vs. Silver) are different. The pattern execution and density also show discrepancies. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 4,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 5033,
+        "candidatesTokenCount": 169,
+        "totalTokenCount": 5202,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1032
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2437
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 628
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 169
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022419471994268060",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "Can't Say",
+      "original_output": "{\"analysis\": \"No OBD image showing product\", \"decision\": \"Can't Say\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"White and Red/Pink Saree with Gold Embroidery\", \"product_in_wildimage\": \"White and Pink Saree with Gold Embroidery (Visible in Wild_Image_1 and Wild_Image_2)\", \"reason\": \"Visibility: Clear | Score: 10/10 | Identity: Match - The saree in both Wild Images matches the Catalog image in terms of color, pattern, and material. Wild_Image_1 shows the folded saree in packaging, and Wild_Image_2 shows it unfolded. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"No Issue\"}",
+      "match": false,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 152,
+        "totalTokenCount": 4663,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 350
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 2715
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 152
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022421441453442200",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 8/10 | Identity: Mismatch - The Catalog image shows a red saree with intricate black floral embroidery and a black sequin border. The Wild image shows a plain red fabric with a black sequin border, lacking the distinctive floral embroidery. | Damage: None | Missing: None | Confidence: 95\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Red Fabric with Black Sequin Border (Visible in Cx Image)\", \"product_in_catalogimage\": \"Red Saree with Black Floral Embroidery and Black Sequin Border\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"Red and Black Embroidered Saree\", \"product_in_wildimage\": \"Red fabric with black sequined border (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Clear | Score: 9/10 | Identity: Match - The red fabric and black sequined border match the color and pattern elements of the saree in the catalog image. | Damage: None | Missing: None | Confidence: 95\", \"product_match\": \"No Issue\"}",
+      "match": false,
+      "image_count": 3,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4775,
+        "candidatesTokenCount": 120,
+        "totalTokenCount": 4895,
+        "cachedContentTokenCount": 3066,
+        "trafficType": "ON_DEMAND",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2569
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 497
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 120
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022421441453442200",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Partial (due to transparent bag) | Score: 4/10 | Identity: Mismatch - The Catalog shows a red and black embroidered saree. Wild_Image_1 shows a red and blue/black fabric with a blue logo, which does not match the pattern or color scheme of the saree. The item is also in a transparent bag, but the distinct features of the saree are not visible enough to confirm identity beyond the color and pattern mismatch. | Damage: Cannot Verify | Missing: Cannot Verify | Confidence: 90 | Note: The product is placed on a motorbike, but a commercial product is clearly visible, so it proceeds past the 'Can't Say' firewall. However, the product itself is a mismatch.\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Red and Blue/Black Fabric in Opaque Packaging (Wild_Image_1)\", \"product_in_catalogimage\": \"Red and Black Embroidered Saree\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Red and Black Embroidered Saree\", \"product_in_wildimage\": \"Red and Black Fabric in a transparent bag (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Partial (in Image 1) | Score: 4/10 | Identity: Mismatch - The Catalog shows a saree with intricate black embroidery, while the Wild image shows a folded fabric in a transparent bag with a blue logo. While the base colors (red and black) are present, the distinct pattern and form of the saree are not visible, and the blue logo on the bag is not part of the product. The product's specific features are not clearly discernible to confirm it is the same saree. | Damage: Cannot Verify | Missing: Cannot Verify | Confidence: 90 | Note: Wild_Image_1 shows the product in a transparent bag, allowing partial visibility of color but not the detailed pattern or form.\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 220,
+        "totalTokenCount": 4731,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 220
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022512134420774706",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "No Issue",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 10/10 | Identity: Match - The saree in the wild image perfectly matches the design, color, and embellishments of the catalog image. | Damage: None | Missing: None | Confidence: 100\", \"decision\": \"No Issue\", \"product_in_wildimage\": \"Red and White Saree with Gold Border and Sequin Embellishments (Visible in Wild_Image_1)\", \"product_in_catalogimage\": \"Red and White Saree with Gold Border and Sequin Embellishments\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"Red and White Saree with Gold Embellishments and Sequin Border\", \"product_in_wildimage\": \"Red and White Saree with Gold Embellishments and Sequin Border (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Clear | Score: 10/10 | Identity: Match - The Wild image shows a saree that matches the design, color, and embellishments of the Catalog image. The red and white fabric with gold patterns and sequin border are consistent. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"No Issue\"}",
+      "match": true,
+      "image_count": 4,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 5033,
+        "candidatesTokenCount": 150,
+        "totalTokenCount": 5183,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1032
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 628
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 2437
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 150
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022512134420774706",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "No Issue",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 9/10 | Identity: Match - The color, pattern, and embellishments of the fabric in the Wild Image closely match the Catalog Image. | Damage: None | Missing: None | Confidence: 95\", \"decision\": \"No Issue\", \"product_in_wildimage\": \"Red and White Fabric with Gold Embellishments (Visible in Obd Image)\", \"product_in_catalogimage\": \"Red and White Saree with Gold Embellishments\"}",
+      "rerun_decision": "No Issue",
+      "rerun_output": "{\"product_in_catalogimage\": \"Red and White Saree with Gold Embellishments\", \"product_in_wildimage\": \"Red and White Saree with Gold Embellishments (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Clear (in Wild_Image_1) | Score: 8/10 | Identity: Match - The color, pattern, and embellishments of the saree in Wild_Image_1 clearly match the Catalog image. The item is visible through transparent packaging. | Damage: None | Missing: None | Confidence: 95 | Note: Wild_Image_1 shows the product clearly through transparent packaging, allowing for identity verification.\", \"product_match\": \"No Issue\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 163,
+        "totalTokenCount": 4674,
+        "cachedContentTokenCount": 3065,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 350
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 2715
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 163
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022513002839843306",
+      "agent": "image_adjudication_cx_agent",
+      "original_decision": "Misshipment",
+      "original_output": "{\"analysis\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The Catalog image shows a purple and pink saree with a gold border, while the Wild image shows folded pieces of orange and red fabric. The category, color, and pattern are completely different. | Damage: None | Missing: None | Confidence: 100\", \"decision\": \"Misshipment\", \"product_in_wildimage\": \"Orange and Red Fabric (Visible in Cx Image)\", \"product_in_catalogimage\": \"Purple and Pink Saree with Gold Border\"}",
+      "rerun_decision": "Misshipment",
+      "rerun_output": "{\"product_in_catalogimage\": \"Purple Saree with Gold Border\", \"product_in_wildimage\": \"Orange and Red Fabric (Visible in Wild_Image_1)\", \"reason\": \"Visibility: Clear | Score: 10/10 | Identity: Mismatch - The Wild image shows orange and red fabric, which is a different color and likely a different type of garment than the purple saree shown in the Catalog image. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"Misshipment\"}",
+      "match": true,
+      "image_count": 3,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4775,
+        "candidatesTokenCount": 129,
+        "totalTokenCount": 4904,
+        "cachedContentTokenCount": 3066,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4001
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 774
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2569
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 497
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 129
+          }
+        ]
+      }
+    },
+    {
+      "incident_id": "IN26022513002839843306",
+      "agent": "image_adjudication_obd_agent",
+      "original_decision": "Can't Say",
+      "original_output": "{\"analysis\": \"No OBD image showing product\", \"decision\": \"Can't Say\"}",
+      "rerun_decision": "Can't Say",
+      "rerun_output": "{\"product_in_catalogimage\": \"Purple and Pink Cotton Saree with Gold Border\", \"product_in_wildimage\": \"Not Visible (Opaque/Blurry image only)\", \"reason\": \"Visibility: Zero | Score: 0/10 | Identity: Cannot Verify - Wild_Image_1 is completely opaque/blurry and does not show any product. | Damage: None | Missing: None | Confidence: 100\", \"product_match\": \"Can't Say\"}",
+      "match": true,
+      "image_count": 2,
+      "status": "success",
+      "tokens": {
+        "promptTokenCount": 4511,
+        "candidatesTokenCount": 117,
+        "totalTokenCount": 4628,
+        "cachedContentTokenCount": 2043,
+        "trafficType": "PROVISIONED_THROUGHPUT",
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3995
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 516
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "IMAGE",
+            "tokenCount": 233
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 1810
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 117
+          }
+        ]
+      }
+    }
+  ]
+}

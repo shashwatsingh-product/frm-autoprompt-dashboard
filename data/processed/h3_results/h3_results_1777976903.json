@@ -1,0 +1,101 @@
+{
+  "config": {
+    "agent": "both",
+    "limit": 5,
+    "dry_run": true,
+    "generation_config": {
+      "maxOutputTokens": 300,
+      "temperature": 0.0,
+      "topP": 0.4,
+      "topK": 32,
+      "seed": 2025,
+      "thinkingConfig": {
+        "thinkingBudget": 0
+      }
+    },
+    "image_compression": {
+      "width": 1000,
+      "height": 1000,
+      "quality": 85
+    }
+  },
+  "summary": {
+    "total": 10,
+    "matches": 0,
+    "mismatches": 0,
+    "errors": 0,
+    "consistency_pct": null
+  },
+  "results": [
+    {
+      "incident_id": "IN26020722095225379286",
+      "agent": "image_adjudication_cx_agent",
+      "image_count": 3,
+      "original_decision": "Misshipment",
+      "status": "dry_run"
+    },
+    {
+      "incident_id": "IN26020722095225379286",
+      "agent": "image_adjudication_obd_agent",
+      "image_count": 2,
+      "original_decision": "Can't Say",
+      "status": "dry_run"
+    },
+    {
+      "incident_id": "IN26022018592806222677",
+      "agent": "image_adjudication_cx_agent",
+      "image_count": 4,
+      "original_decision": "Can't Say",
+      "status": "dry_run"
+    },
+    {
+      "incident_id": "IN26022018592806222677",
+      "agent": "image_adjudication_obd_agent",
+      "image_count": 2,
+      "original_decision": "No Issue",
+      "status": "dry_run"
+    },
+    {
+      "incident_id": "IN26022117274308785540",
+      "agent": "image_adjudication_cx_agent",
+      "image_count": 4,
+      "original_decision": "Major Damage",
+      "status": "dry_run"
+    },
+    {
+      "incident_id": "IN26022117274308785540",
+      "agent": "image_adjudication_obd_agent",
+      "image_count": 2,
+      "original_decision": "No Issue",
+      "status": "dry_run"
+    },
+    {
+      "incident_id": "IN26022121343655406891",
+      "agent": "image_adjudication_cx_agent",
+      "image_count": 4,
+      "original_decision": "Minor Damage",
+      "status": "dry_run"
+    },
+    {
+      "incident_id": "IN26022121343655406891",
+      "agent": "image_adjudication_obd_agent",
+      "image_count": 2,
+      "original_decision": "Misshipment",
+      "status": "dry_run"
+    },
+    {
+      "incident_id": "IN26022220493088929302",
+      "agent": "image_adjudication_cx_agent",
+      "image_count": 4,
+      "original_decision": "Misshipment",
+      "status": "dry_run"
+    },
+    {
+      "incident_id": "IN26022220493088929302",
+      "agent": "image_adjudication_obd_agent",
+      "image_count": 2,
+      "original_decision": "No Issue",
+      "status": "dry_run"
+    }
+  ]
+}
