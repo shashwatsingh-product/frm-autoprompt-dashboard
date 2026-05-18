@@ -59,7 +59,7 @@ const CANT_SAY_126 = rd(126 * (1 - RECALL));   // 68.4
 const RECALL_CEIL  = rd(126 * RECALL);          // 57.6
 const OBD_GAIN     = rd(52  * RECALL);          // 23.8
 const MATCH_GAIN   = rd(7   * RECALL);          // 3.2
-const MPC_SOP      = rd(40 - 11 - OBD_GAIN - MATCH_GAIN); // 2.0
+const MPC_SOP      = rd(40 - 11 - OBD_GAIN - MATCH_GAIN); // updated: HPC Live now 11 bps
 
 // ── Datasets ──────────────────────────────────────────────────────────────────
 const funnelBars = buildWF([
@@ -74,7 +74,7 @@ const funnelBars = buildWF([
   { name: 'AI Evaluatable',                     type: 'total' },
   { name: "Can't Say",      bps: CANT_SAY_BPS, type: 'recall',  note: `${pct(1 - RECALL)} cant-say · 7,856 cases` },
   { name: 'AI Reco',                            type: 'total' },
-  { name: 'Control+MPC',    bps: 6,            type: 'mpc',     note: '890 control + 1,644 MPC cases' },
+  { name: 'Control+MPC',    bps: 6,            type: 'mpc',     note: '~743 control (20%) + ~1,486 MPC cases' },
   { name: 'HPC Live',       bps: 11,           type: 'current', note: `4,087 cases/wk · ${inc(11)}/mo` },
 ]);
 
@@ -91,7 +91,7 @@ const pathBars = buildWF([
   { name: 'OBD URL Fix',    bps: OBD_GAIN,   type: 'add',     note: `52 × ${pct(RECALL)} · 19,771 cases unblocked` },
   { name: 'Match Partial',  bps: MATCH_GAIN, type: 'add',     note: `~7 × ${pct(RECALL)}` },
   { name: 'MPC + SOP',      bps: MPC_SOP,    type: 'add',     note: 'SOP adherence + MPC expansion' },
-  { name: 'AMJ 40 bps',     bps: 40,         type: 'target',  note: `AMJ quarterly · ${inc(40)}/mo` },
+  { name: 'JFM 40 bps',     bps: 40,         type: 'target',  note: `JFM target (in progress) · ${inc(40)}/mo` },
 ]);
 
 // ── Tooltip ───────────────────────────────────────────────────────────────────
@@ -238,7 +238,7 @@ export default function HPCAutomation() {
   const kpis = [
     { label: 'HPC Live',         value: '11 bps',          sub: `${hc(11)} HC · ${inc(11)}/mo`,           accent: CLR.current },
     { label: 'JFM Target (Q1)',  value: '40 bps',          sub: `${hc(40)} HC · ${inc(40)}/mo · in progress`, accent: '#22d3ee' },
-    { label: 'AMJ Target (Q2)',  value: '40 bps',          sub: `${hc(40)} HC · ${inc(40)}/mo`,              accent: CLR.add },
+    { label: 'AMJ End (Cumul.)', value: '80 bps',          sub: `${hc(80)} HC · ${inc(80)}/mo · cumul. by AMJ end`, accent: CLR.add },
     { label: 'Cumul. Q1+Q2',     value: '80 bps',          sub: `${hc(80)} HC · ${inc(80)}/mo · 3-phase plan`, accent: CLR.out },
     { label: 'Model Recall',     value: pct(RECALL),       sub: 'reco ÷ (reco + cant-say)',               accent: CLR.recall },
     { label: 'Recall Ceiling',   value: `~${r1(RECALL_CEIL - 6)} bps`, sub: `${hc(r1(RECALL_CEIL-6))} HC · ${inc(r1(RECALL_CEIL-6))}/mo`, accent: '#f472b6' },
@@ -249,8 +249,103 @@ export default function HPCAutomation() {
       <div>
         <h1 style={{ fontSize: 24, fontWeight: 700, color: '#0F172A', margin: '0 0 4px' }}>HPC Automation</h1>
         <p style={{ fontSize: 13, color: '#64748B', margin: 0 }}>
-          Week 17 (Apr 22–26) · Recall = {pct(RECALL)} · {hc(1)} HC/bps · {inc(1)}/mo per bps
+          Week 17 (Apr 22–26) · Recall = {pct(RECALL)} · Control = 20% · {hc(1)} HC/bps · {inc(1)}/mo per bps
         </p>
+      </div>
+
+      {/* Exec Summary */}
+      <div style={{ borderRadius: 16, border: `2px solid ${FK_BLUE}25`, background: 'white', overflow: 'hidden', boxShadow: '0 1px 4px rgba(0,0,0,0.07)' }}>
+        <div style={{ padding: '14px 20px', background: `${FK_BLUE}0A`, borderBottom: `1px solid ${FK_BLUE}20`, display: 'flex', alignItems: 'center', gap: 10 }}>
+          <span style={{ width: 4, borderRadius: 2, background: FK_BLUE, alignSelf: 'stretch', flexShrink: 0 }} />
+          <span style={{ fontSize: 13, fontWeight: 700, color: FK_BLUE, letterSpacing: '0.04em', textTransform: 'uppercase' }}>Executive Summary</span>
+          <span style={{ marginLeft: 'auto', fontSize: 11, color: '#94A3B8' }}>Week 17 · Apr 22–26, 2025</span>
+        </div>
+        <div style={{ padding: '18px 20px', display: 'flex', flexDirection: 'column', gap: 16 }}>
+
+          {/* Narrative */}
+          <p style={{ fontSize: 13, color: '#334155', lineHeight: 1.75, margin: 0 }}>
+            HPC automation is <strong style={{ color: '#0F172A' }}>live at 11 bps</strong> (4,087 cases/wk, Week 17), automating AI-driven approval decisions on OCR returns.
+            The <strong style={{ color: '#0F172A' }}>JFM target is 40 bps</strong> - a 29 bps gap - fully closeable within current OCR approval scope via three execution levers.
+            By <strong style={{ color: '#0F172A' }}>AMJ end, the cumulative target is 80 bps</strong>: Phase 1 gets to 40 bps; Phase 2 (rejection automation) and Phase 3 (non-OCR expansion) deliver the next 40 bps.
+          </p>
+
+          {/* Progress bar: 11 → 40 → 80 */}
+          <div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 10, color: '#94A3B8', marginBottom: 6, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
+              <span>Current</span>
+              <span>JFM Target (Phase 1)</span>
+              <span>AMJ End Cumul. Target</span>
+            </div>
+            <div style={{ position: 'relative', height: 12, borderRadius: 6, background: '#F1F5F9', overflow: 'visible' }}>
+              {/* Phase 1 fill up to 40 bps */}
+              <div style={{ position: 'absolute', left: 0, top: 0, height: '100%', width: '50%', borderRadius: 6, background: `${FK_BLUE}30` }} />
+              {/* Current 11 bps fill */}
+              <div style={{ position: 'absolute', left: 0, top: 0, height: '100%', width: `${(11/80)*100}%`, borderRadius: 6, background: FK_BLUE }} />
+              {/* 40 bps tick */}
+              <div style={{ position: 'absolute', left: '50%', top: -3, width: 2, height: 18, background: CLR.add, borderRadius: 1 }} />
+              {/* Labels */}
+              <span style={{ position: 'absolute', left: `${(11/80)*100}%`, top: 16, transform: 'translateX(-50%)', fontSize: 10, fontWeight: 700, color: FK_BLUE, whiteSpace: 'nowrap' }}>11 bps ▲</span>
+              <span style={{ position: 'absolute', left: '50%', top: 16, transform: 'translateX(-50%)', fontSize: 10, fontWeight: 700, color: CLR.add, whiteSpace: 'nowrap' }}>40 bps</span>
+              <span style={{ position: 'absolute', right: 0, top: 16, fontSize: 10, fontWeight: 700, color: '#94A3B8', whiteSpace: 'nowrap' }}>80 bps</span>
+            </div>
+            <div style={{ height: 28 }} />
+          </div>
+
+          {/* Three levers */}
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 12 }}>
+            {[
+              {
+                phase: 'Lever 1 - OBD URL Fix',
+                gain: `+${OBD_GAIN} bps`,
+                status: 'Biggest unlock',
+                statusColor: CLR.add,
+                detail: `19,771 cases blocked by missing OBD URL. Engineering pipeline fix unblocks ${pct(RECALL)} of this cohort.`,
+              },
+              {
+                phase: 'Lever 2 - Match Cohorts',
+                gain: `+${MATCH_GAIN} bps`,
+                status: 'Quick win',
+                statusColor: CLR.add,
+                detail: `~7 bps cohort partially automatable via MR route. DS to validate match positions.`,
+              },
+              {
+                phase: 'Lever 3 - MPC + SOP Fix',
+                gain: `+${MPC_SOP} bps`,
+                status: 'Ops action',
+                statusColor: CLR.mpc,
+                detail: `Sub-reason SOP adherence (8 bps Unknown) + MPC cohort expansion. Bridges to JFM 40 bps target.`,
+              },
+            ].map(l => (
+              <div key={l.phase} style={{ background: '#F8FAFC', borderRadius: 10, padding: '12px 14px', border: '1px solid #E2E8F0' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 6 }}>
+                  <span style={{ fontSize: 10, color: '#64748B', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.06em' }}>{l.phase}</span>
+                  <span style={{ fontSize: 14, fontWeight: 800, color: CLR.add, fontFamily: 'monospace' }}>{l.gain}</span>
+                </div>
+                <p style={{ fontSize: 11, color: l.statusColor, fontWeight: 700, margin: '0 0 4px' }}>{l.status}</p>
+                <p style={{ fontSize: 11, color: '#475569', margin: 0, lineHeight: 1.5 }}>{l.detail}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* Ceiling callout */}
+          <div style={{ display: 'flex', gap: 12 }}>
+            <div style={{ flex: 1, background: '#FDF4FF', borderRadius: 10, padding: '10px 14px', border: '1px solid #E9D5FF' }}>
+              <span style={{ fontSize: 10, color: CLR.recall, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em' }}>OCR Approval Ceiling</span>
+              <p style={{ fontSize: 12, color: '#475569', margin: '4px 0 0', lineHeight: 1.5 }}>
+                Model recall of <strong>{pct(RECALL)}</strong> creates a hard ceiling of ~{r1(RECALL_CEIL - 6)} bps within current OCR scope.
+                Breaking past 52 bps requires model improvement or expanding the addressable universe.
+              </p>
+            </div>
+            <div style={{ flex: 1, background: '#FFF7ED', borderRadius: 10, padding: '10px 14px', border: '1px solid #FED7AA' }}>
+              <span style={{ fontSize: 10, color: CLR.unknown, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em' }}>Path to 80 bps Cumulative</span>
+              <p style={{ fontSize: 12, color: '#475569', margin: '4px 0 0', lineHeight: 1.5 }}>
+                Phase 2 (rejection automation, <strong>191 bps</strong> addressable bucket, currently paused) and
+                Phase 3 (non-OCR expansion) open the remaining ~40 bps to hit the JFM+AMJ cumulative target.
+              </p>
+            </div>
+          </div>
+
+        </div>
       </div>
 
       {/* KPI strip */}
@@ -272,7 +367,7 @@ export default function HPCAutomation() {
       {/* Funnel chart */}
       <Section
         title="Funnel - OCR Bucket → HPC Live"
-        sub={`Exclusions first (Match, MR, OBD Missing, Reason Selection), then recall (${pct(RECALL)}) on 38 bps AI-evaluatable. 38 × 54.3% = 20.6 cant-say → 17 AI reco → 6 control+MPC → 11 HPC live.`}
+        sub={`Exclusions first (Match, MR, OBD Missing, Reason Selection), then recall (${pct(RECALL)}) on 38 bps AI-evaluatable. 38 × 54.3% = 20.6 cant-say → 17 AI reco → 6 control+MPC (2 bps control @ 20%) → 11 HPC live.`}
         accent={CLR.start}
       >
         <Legend keys={['start', 'total', 'out', 'unknown', 'recall', 'mpc', 'current']} />
@@ -282,8 +377,8 @@ export default function HPCAutomation() {
           yMax={340}
           refLines={[
             { y: 80, label: 'JFM+AMJ 80 bps (Phase 1+2+3)', color: CLR.out },
-            { y: 40, label: 'JFM/AMJ 40 bps',         color: '#22d3ee' },
-            { y: 11, label: 'Current 11 bps',          color: CLR.current },
+            { y: 40, label: 'JFM target 40 bps',        color: '#22d3ee' },
+            { y: 11, label: 'Current 11 bps',           color: CLR.current },
           ]}
         />
       </Section>
@@ -302,14 +397,14 @@ export default function HPCAutomation() {
             yMax={140}
             refLines={[
               { y: 80, label: 'Cumul. 80 bps (Phase 1+2+3)', color: CLR.out },
-              { y: 40, label: 'AMJ target 40',    color: CLR.target },
+              { y: 40, label: 'JFM target 40',    color: CLR.target },
             ]}
           />
         </Section>
 
         <Section
-          title="Path to AMJ 40 bps - OCR Approval Scope"
-          sub={`OBD fix, match partial, and MPC+SOP levers get to 40 bps (AMJ quarterly target). Phase 2 rejection automation and Phase 3 non-OCR expansion open the path to 80 bps cumulative.`}
+          title="Path to JFM 40 bps - OCR Approval Scope"
+          sub={`OBD fix, match partial, and MPC+SOP levers get to 40 bps (JFM quarterly target, in progress). Phase 2 rejection automation and Phase 3 non-OCR expansion open the path to 80 bps cumulative by AMJ end.`}
           accent={CLR.add}
         >
           <Legend keys={['current', 'add', 'target']} />
@@ -320,7 +415,7 @@ export default function HPCAutomation() {
             refLines={[
               { y: 80, label: 'Cumul. 80 bps (Phase 1+2+3)', color: CLR.out },
               { y: 52, label: 'OCR approval ceiling ~52 bps',           color: '#f472b6' },
-              { y: 40, label: 'AMJ target 40 bps',                      color: CLR.target },
+              { y: 40, label: 'JFM target 40 bps',                      color: CLR.target },
             ]}
           />
         </Section>
@@ -364,7 +459,7 @@ export default function HPCAutomation() {
                 'Returns currently blocked by non-OBD reasons (outside present funnel)',
                 'Expands total addressable base beyond the current 317 bps scope',
               ],
-              note: 'PM - scope full returns universe · identify non-OCR routes eligible for automation.',
+              note: 'Scope full returns universe · identify non-OCR routes eligible for automation.',
             },
           ].map(p => (
             <div key={p.phase} style={{ background: '#F8FAFC', borderRadius: 10, padding: '14px 16px', border: '1px solid #E2E8F0' }}>
@@ -378,8 +473,8 @@ export default function HPCAutomation() {
           ))}
         </div>
         <p style={{ color: '#64748B', fontSize: 11, marginTop: 12, lineHeight: 1.6 }}>
-          JFM and AMJ each have a 40 bps target - cumulative 80 bps by AMJ end.
-          Phase 1 (OCR approval HPC) gets to 40 bps. Phases 2+3 (rejection automation + non-OCR expansion) open up the next 40 bps.
+          JFM target is 40 bps (Phase 1, in progress). By AMJ end, cumulative target is 80 bps.
+          Phase 1 (OCR approval HPC) closes the JFM gap. Phases 2+3 (rejection automation + non-OCR expansion) deliver the next 40 bps for AMJ.
           Recall improvement is a sub-lever within Phase 1 that raises the ceiling from ~52 bps within OCR approval scope.
         </p>
       </div>
@@ -404,10 +499,10 @@ export default function HPCAutomation() {
                 </td>
               </tr>
               {[
-                { lever: 'Baseline - HPC live',       raw: '-',  mult: '-',         gain: '-',          hcG: `${hc(11)}`,          incG: `${inc(11)}/mo`,          run: '11 bps',                       color: CLR.current, action: '4,087 cases/wk · 13 agents' },
+                { lever: 'Baseline - HPC live',       raw: '-',  mult: '-',         gain: '-',          hcG: `${hc(11)}`,          incG: `${inc(11)}/mo`,          run: '11 bps',                       color: CLR.current, action: '4,087 cases/wk · control 20% (2 bps)' },
                 { lever: 'Fix OBD URL availability',  raw: 52,   mult: pct(RECALL), gain: `+${OBD_GAIN}`,   hcG: `+${hc(OBD_GAIN)}`,   incG: `+${inc(OBD_GAIN)}/mo`,   run: `${rd(11+OBD_GAIN)} bps`,       color: CLR.add,     action: 'Engg - OBD pipeline · 19,771 cases unblocked' },
                 { lever: 'Match Cohorts (partial)',   raw: '~7', mult: pct(RECALL), gain: `+${MATCH_GAIN}`, hcG: `+${hc(MATCH_GAIN)}`, incG: `+${inc(MATCH_GAIN)}/mo`, run: `${rd(11+OBD_GAIN+MATCH_GAIN)} bps`, color: CLR.add, action: 'DS - match positions via MR route' },
-                { lever: 'MPC expansion + SOP fix',   raw: '-',  mult: '-',         gain: `+${MPC_SOP}`,    hcG: `+${hc(MPC_SOP)}`,    incG: `+${inc(MPC_SOP)}/mo`,    run: '40 bps',                       color: CLR.mpc,     action: 'Ops - sub-reason SOP · PM - MPC cohort setup' },
+                { lever: 'MPC expansion + SOP fix',   raw: '-',  mult: '-',         gain: `+${MPC_SOP}`,    hcG: `+${hc(MPC_SOP)}`,    incG: `+${inc(MPC_SOP)}/mo`,    run: '40 bps',                       color: CLR.mpc,     action: 'Ops - sub-reason SOP + MPC cohort setup' },
               ].map((row, i) => (
                 <tr key={i} style={{ borderBottom: '1px solid #F1F5F9' }}
                   onMouseEnter={e => e.currentTarget.style.background = '#F8FAFC'}
@@ -474,7 +569,7 @@ export default function HPCAutomation() {
                 <td style={{ padding: '10px 12px', textAlign: 'right', color: '#64748B', fontFamily: 'monospace' }}>TBD</td>
                 <td style={{ padding: '10px 12px', textAlign: 'right', color: '#64748B', fontFamily: 'monospace' }}>TBD</td>
                 <td style={{ padding: '10px 12px', textAlign: 'right', color: '#475569', fontFamily: 'monospace', fontWeight: 700 }}>TBD</td>
-                <td style={{ padding: '10px 12px', color: '#64748B', fontSize: 11 }}>PM - scope returns outside OCR pipeline · returns blocked by non-OBD reasons</td>
+                <td style={{ padding: '10px 12px', color: '#64748B', fontSize: 11 }}>Scope returns outside OCR pipeline · returns blocked by non-OBD reasons</td>
               </tr>
 
               {/* Cumulative target */}
@@ -514,9 +609,9 @@ export default function HPCAutomation() {
                 { stage: '        AI Evaluatable',              bps: 38,  t: 'start',   note: '14,477 = recall denominator' },
                 { stage: `          Can't Say (${pct(1-RECALL)})`, bps: rd(38*(1-RECALL)), t: 'recall', note: `7,856 cases · recall = ${pct(RECALL)}` },
                 { stage: '          AI Reco to Approve',        bps: 17,  t: 'add',     note: '6,621 cases' },
-                { stage: '            Control (10%)',           bps: 2,   t: 'mpc',     note: '890 cases' },
-                { stage: '            MPC',                     bps: 4,   t: 'mpc',     note: '1,644 cases' },
-                { stage: '            HPC Live ✓',              bps: 11,  t: 'current', note: '4,087 cases · 13 agents · Wk 17' },
+                { stage: '            Control (20%)',           bps: 2,   t: 'mpc',     note: '~743 cases (20% of AI Reco)' },
+                { stage: '            MPC',                     bps: 4,   t: 'mpc',     note: '~1,486 cases' },
+                { stage: '            HPC Live ✓',              bps: 11,  t: 'current', note: '4,087 cases · Wk 17' },
               ].map((row, i) => (
                 <tr key={i} style={{ borderBottom: '1px solid #F1F5F9' }}
                   onMouseEnter={e => e.currentTarget.style.background = '#F8FAFC'}
